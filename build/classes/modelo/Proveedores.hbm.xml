@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 10-mar-2021 16:13:18 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="modelo.Proveedores" table="proveedores" catalog="boldgest" optimistic-lock="version">
+        <id name="idProveedor" type="java.lang.Integer">
+            <column name="id_proveedor" />
+            <generator class="identity" />
+        </id>
+        <property name="nombre" type="string">
+            <column name="nombre" length="25" />
+        </property>
+        <property name="dni" type="string">
+            <column name="dni" length="9" />
+        </property>
+        <property name="direccion" type="string">
+            <column name="direccion" length="90" />
+        </property>
+        <property name="ciudad" type="string">
+            <column name="ciudad" length="50" />
+        </property>
+        <property name="codPostal" type="java.lang.Integer">
+            <column name="cod_postal" />
+        </property>
+        <property name="imagen" type="binary">
+            <column name="imagen" />
+        </property>
+        <property name="valoracion" type="java.lang.Integer">
+            <column name="valoracion" />
+        </property>
+        <property name="categoria" type="string">
+            <column name="categoria" length="20" />
+        </property>
+        <property name="sitioWeb" type="string">
+            <column name="sitio_web" length="200" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" length="50" />
+        </property>
+        <set name="productoses" table="productos" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="id_proveedor" />
+            </key>
+            <one-to-many class="modelo.Productos" />
+        </set>
+    </class>
+</hibernate-mapping>

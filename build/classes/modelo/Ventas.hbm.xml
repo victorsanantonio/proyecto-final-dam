@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 10-mar-2021 16:13:18 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="modelo.Ventas" table="ventas" catalog="boldgest" optimistic-lock="version">
+        <id name="idVenta" type="java.lang.Integer">
+            <column name="id_venta" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="empleados" class="modelo.Empleados" fetch="select">
+            <column name="id_empleado" />
+        </many-to-one>
+        <many-to-one name="productos" class="modelo.Productos" fetch="select">
+            <column name="id_producto" />
+        </many-to-one>
+        <property name="fechaVenta" type="date">
+            <column name="fecha_venta" length="10" />
+        </property>
+        <property name="precio" type="java.lang.Float">
+            <column name="precio" precision="12" scale="0" />
+        </property>
+        <property name="nombreCliente" type="string">
+            <column name="nombre_cliente" length="25" />
+        </property>
+        <property name="dniCliente" type="string">
+            <column name="dni_cliente" length="9" />
+        </property>
+        <property name="ciudad" type="string">
+            <column name="ciudad" length="50" />
+        </property>
+        <property name="direccion" type="string">
+            <column name="direccion" length="90" />
+        </property>
+    </class>
+</hibernate-mapping>

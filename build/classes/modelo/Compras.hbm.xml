@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 10-mar-2021 16:13:18 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="modelo.Compras" table="compras" catalog="boldgest" optimistic-lock="version">
+        <id name="idCompra" type="java.lang.Integer">
+            <column name="id_compra" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="empleados" class="modelo.Empleados" fetch="select">
+            <column name="id_empleado" />
+        </many-to-one>
+        <many-to-one name="productos" class="modelo.Productos" fetch="select">
+            <column name="id_producto" />
+        </many-to-one>
+        <property name="fechaCompra" type="date">
+            <column name="fecha_compra" length="10" />
+        </property>
+        <property name="nombreProveedor" type="string">
+            <column name="nombre_proveedor" length="25" />
+        </property>
+        <property name="codPostal" type="java.lang.Integer">
+            <column name="cod_postal" />
+        </property>
+        <property name="ciudad" type="java.lang.Integer">
+            <column name="ciudad" />
+        </property>
+        <property name="total" type="java.lang.Float">
+            <column name="total" precision="12" scale="0" />
+        </property>
+        <property name="totalIva" type="java.lang.Float">
+            <column name="total_iva" precision="12" scale="0" />
+        </property>
+    </class>
+</hibernate-mapping>
