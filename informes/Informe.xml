@@ -15,125 +15,77 @@
 		<image scaleImage="RetainShape" hAlign="Left" vAlign="Top">
 			<reportElement uuid="0f19f0f3-5e97-46cd-b7a4-b89131653226" x="20" y="20" width="101" height="79" origin="1" srcId="1"/>
 			<imageSource>
-				<![CDATA[.\informes\Informe.xml_files\img_1]]>
+				<![CDATA[.\informes\Informe.xml_files\img_0]]>
 			</imageSource>
 		</image>
 		<text textHeight="39.902344" lineSpacingFactor="1.3300781" leadingOffset="-7.529297">
 			<reportElement uuid="4f25c38b-3021-4484-a382-d0732e3d1f15" x="147" y="50" width="328" height="49" origin="1" srcId="2"/>
 			<font fontName="Segoe UI" size="30" isBold="true"/>
-			<textContent><![CDATA[Informe de empleados]]></textContent>
+			<textContent><![CDATA[Informe de compras]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.util.Date" pattern="dd/MM/yyyy">
 			<reportElement uuid="b48e15c5-724b-44a5-a734-b740ce287ac4" x="496" y="20" width="100" height="20" origin="1" srcId="3"/>
-			<textContent><![CDATA[26/04/2021]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="9073254e-9b8d-4736-8fb8-809839ae3f33" x="20" y="152" width="100" height="20" origin="3" srcId="4"/>
-			<font isBold="true"/>
-			<textContent><![CDATA[Nombre]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="96396d70-2d27-4fb1-ae54-28db59d1b633" x="120" y="152" width="100" height="20" origin="3" srcId="5"/>
-			<font isBold="true"/>
-			<textContent><![CDATA[Apellidos]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="28d817ed-b439-46f5-b3bc-c07a89b6a2c7" x="220" y="152" width="100" height="20" origin="3" srcId="6"/>
-			<font isBold="true"/>
-			<textContent><![CDATA[DNI]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="8e597d64-c110-4877-b1d3-0a5becae217e" x="420" y="152" width="100" height="20" origin="3" srcId="7"/>
-			<font isBold="true"/>
-			<textContent><![CDATA[Puesto]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="774124c3-9609-4232-9c42-9ebac9971977" x="520" y="152" width="100" height="20" origin="3" srcId="8"/>
-			<font isBold="true"/>
-			<textContent><![CDATA[Salario]]></textContent>
+			<textContent><![CDATA[01/05/2021]]></textContent>
 		</text>
 		<line>
-			<reportElement uuid="27275c97-40e2-4939-8900-7574da372a65" x="20" y="172" width="555" height="1" origin="3" srcId="9"/>
+			<reportElement uuid="27275c97-40e2-4939-8900-7574da372a65" x="20" y="172" width="555" height="1" origin="3" srcId="4"/>
 		</line>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="6daa1634-4ed9-4151-9842-ec907aab5740" x="321" y="152" width="100" height="20" origin="3" srcId="10"/>
+			<reportElement uuid="e83b38b2-0c41-4e74-ad13-0a4c8a94c51b" x="21" y="153" width="100" height="20" origin="3" srcId="5"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Teléfono]]></textContent>
+			<textContent><![CDATA[Proveedor]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="2ea47d62-f1d2-4485-b9a3-130b3253efd3" x="20" y="246" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[null]]></textContent>
+			<reportElement uuid="530ce9ef-a10f-4700-b00a-4ead60aebb85" x="221" y="153" width="100" height="20" origin="3" srcId="6"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[Código postal]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="1457df60-dc7b-4bef-8de3-44d164851a4a" x="121" y="246" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[null]]></textContent>
+			<reportElement uuid="132e4a73-1ca8-4139-9e8c-c0142ad86571" x="121" y="152" width="100" height="20" origin="3" srcId="7"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[Empleado]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="a14298ba-c9fb-400a-949b-91b7eaddf721" x="221" y="246" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[null]]></textContent>
+			<reportElement uuid="1ce41270-2a0f-4f83-adbe-fd7fbfc19e7e" x="321" y="152" width="100" height="20" origin="3" srcId="8"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[Producto]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="54cfd9cd-d679-4383-a820-2ee0b0c5b167" x="420" y="247" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[null]]></textContent>
+			<reportElement uuid="ce45f6c0-0407-4582-a334-e7bb9e221032" x="421" y="153" width="100" height="20" origin="3" srcId="9"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[Ciudad]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="cb0102bb-1a81-46ce-ab54-dbd444f5bfa8" x="521" y="247" width="100" height="20" origin="4" srcId="15"/>
-			<textContent><![CDATA[null]]></textContent>
+			<reportElement uuid="bdc6ba74-6f4c-4ecf-98ba-ab21b873471a" x="521" y="152" width="100" height="20" origin="3" srcId="10"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[TOTAL]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="f113c32c-49f0-403a-ba45-957fe5b297ae" x="320" y="247" width="100" height="20" origin="4" srcId="16"/>
-			<textContent><![CDATA[null]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="2ea47d62-f1d2-4485-b9a3-130b3253efd3" x="20" y="371" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[Pepe]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="1457df60-dc7b-4bef-8de3-44d164851a4a" x="121" y="371" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[Viñuela]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="a14298ba-c9fb-400a-949b-91b7eaddf721" x="221" y="371" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[78221W]]></textContent>
-		</text>
-		<text textHeight="0.0">
-			<reportElement uuid="54cfd9cd-d679-4383-a820-2ee0b0c5b167" x="420" y="372" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
-			<reportElement uuid="cb0102bb-1a81-46ce-ab54-dbd444f5bfa8" x="521" y="372" width="100" height="20" origin="4" srcId="15"/>
-			<textContent><![CDATA[783.3]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="f113c32c-49f0-403a-ba45-957fe5b297ae" x="320" y="372" width="100" height="20" origin="4" srcId="16"/>
-			<textContent><![CDATA[43434]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="2ea47d62-f1d2-4485-b9a3-130b3253efd3" x="20" y="496" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[afd]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="1457df60-dc7b-4bef-8de3-44d164851a4a" x="121" y="496" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[ad]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="a14298ba-c9fb-400a-949b-91b7eaddf721" x="221" y="496" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[ads]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="54cfd9cd-d679-4383-a820-2ee0b0c5b167" x="420" y="497" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[33]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
-			<reportElement uuid="cb0102bb-1a81-46ce-ab54-dbd444f5bfa8" x="521" y="497" width="100" height="20" origin="4" srcId="15"/>
-			<textContent><![CDATA[33.0]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="f113c32c-49f0-403a-ba45-957fe5b297ae" x="320" y="497" width="100" height="20" origin="4" srcId="16"/>
-			<textContent><![CDATA[33]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="244" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[sdf]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="0611e1ac-7cb7-4bd6-8dec-51e6be9e924e" x="475" y="592" width="100" height="20" origin="7" srcId="17"/>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="244" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[16315]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="244" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[1]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="244" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[2]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="244" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="244" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[8.1615698E9]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="0611e1ac-7cb7-4bd6-8dec-51e6be9e924e" x="475" y="342" width="100" height="20" origin="7" srcId="17"/>
 			<textContent><![CDATA[1]]></textContent>
 		</text>
 	</page>

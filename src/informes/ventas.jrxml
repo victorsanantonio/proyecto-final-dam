@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="efba78f8-8195-4125-bdde-9d1416518f20">
+	<property name="ireport.zoom" value="0.9090909090909095"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[SELECT
+     *
+FROM
+     VENTAS;]]>
+	</queryString>
+	<field name="id_venta" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="fecha_venta" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="precio" class="java.lang.Float">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nombre_cliente" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="dni_cliente" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="ciudad" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="direccion" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="id_empleado" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="id_producto" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="0" width="101" height="79" uuid="0f19f0f3-5e97-46cd-b7a4-b89131653226"/>
+				<imageExpression><![CDATA["C:\\Users\\victo\\Downloads\\logo_victor_sanantonio4 (2).jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="127" y="30" width="328" height="49" uuid="4f25c38b-3021-4484-a382-d0732e3d1f15"/>
+				<textElement>
+					<font fontName="Segoe UI" size="30" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Informe de ventas]]></text>
+			</staticText>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="476" y="0" width="100" height="20" uuid="b48e15c5-724b-44a5-a734-b740ce287ac4"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="38" width="555" height="1" uuid="27275c97-40e2-4939-8900-7574da372a65"/>
+			</line>
+			<staticText>
+				<reportElement x="1" y="18" width="100" height="20" uuid="3b84ad7b-f43c-4ce5-a3af-8ce578f48670"/>
+				<text><![CDATA[Cliente]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="100" y="18" width="100" height="20" uuid="80ea710d-d0c2-40dc-b6a5-e15666437ae8"/>
+				<text><![CDATA[DNI Cliente]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="18" width="100" height="20" uuid="7f8a8f79-ff3b-43ab-831e-f9e865002093"/>
+				<text><![CDATA[Dirección]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="301" y="18" width="100" height="20" uuid="c2d8c607-d8b6-4e41-bd6c-5a33bba3e656"/>
+				<text><![CDATA[Empleado]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="401" y="19" width="100" height="20" uuid="b6748449-7636-453c-b97a-aab41519fde9"/>
+				<text><![CDATA[Producto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="501" y="18" width="100" height="20" uuid="32c2b2e2-ccad-4ec0-bb44-5ae9d97c43f1"/>
+				<text><![CDATA[Precio]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="56" width="100" height="20" uuid="c8c8687a-77ab-4f22-82ab-c53f5bf21cf4"/>
+				<textFieldExpression><![CDATA[$F{nombre_cliente}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="101" y="56" width="100" height="20" uuid="96681cf9-7677-46ed-bbe0-f9565db7b24b"/>
+				<textFieldExpression><![CDATA[$F{dni_cliente}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="200" y="56" width="100" height="20" uuid="b4e9c765-3912-42e3-9d9c-3c3d8f5b26c8"/>
+				<textFieldExpression><![CDATA[$F{direccion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="56" width="100" height="20" uuid="9a7f3131-c23b-4b03-910d-945523b8688d"/>
+				<textFieldExpression><![CDATA[$F{id_empleado}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="400" y="56" width="100" height="20" uuid="4eae2060-8a18-4075-9ce4-8a2c59077145"/>
+				<textFieldExpression><![CDATA[$F{id_producto}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="501" y="56" width="100" height="20" uuid="465d85d5-d5ab-4df5-ad40-c2a2d7d52afe"/>
+				<textFieldExpression><![CDATA[$F{precio}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch">
+			<textField>
+				<reportElement x="455" y="22" width="100" height="20" uuid="0611e1ac-7cb7-4bd6-8dec-51e6be9e924e"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

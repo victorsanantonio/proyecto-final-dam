@@ -5,11 +5,22 @@
  */
 package vista.consultas;
 
+import com.mysql.jdbc.CommunicationsException;
 import controlador.crud.Borrar;
 import controlador.crud.Consultar;
 import java.awt.Dimension;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.HashMap;
+import java.util.Map;
 import javax.swing.DefaultListModel;
 import javax.swing.JOptionPane;
+import net.sf.jasperreports.engine.JasperCompileManager;
+import net.sf.jasperreports.engine.JasperExportManager;
+import net.sf.jasperreports.engine.JasperFillManager;
+import net.sf.jasperreports.engine.JasperPrint;
+import net.sf.jasperreports.view.JasperViewer;
 import vista.Login;
 import vista.Menu;
 import vista.inserciones.InsertarProducto;
@@ -85,6 +96,7 @@ public class VerProductos extends javax.swing.JFrame {
             jButtonEmpleados.setVisible(true);
             jLabel3.setVisible(true);
             jLabel4.setVisible(true);
+            jLabel5.setVisible(true);
             jLabel11.setVisible(true);
             jLabel12.setVisible(true);
             jLabel13.setVisible(true);
@@ -137,6 +149,8 @@ public class VerProductos extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
+        jButtonGenerarInforme = new javax.swing.JButton();
+        jLabel9 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -474,6 +488,17 @@ public class VerProductos extends javax.swing.JFrame {
         jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel8.setText("Eliminar");
 
+        jButtonGenerarInforme.setFont(new java.awt.Font("Wingdings", 1, 90)); // NOI18N
+        jButtonGenerarInforme.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/icons8_print_32px_1.png"))); // NOI18N
+        jButtonGenerarInforme.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonGenerarInformeActionPerformed(evt);
+            }
+        });
+
+        jLabel9.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel9.setText("Imprimir");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -513,6 +538,12 @@ public class VerProductos extends javax.swing.JFrame {
                                         .addComponent(jLabel8)
                                         .addGap(40, 40, 40)
                                         .addComponent(jLabel7)))
+                                .addGap(27, 27, 27)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addGap(10, 10, 10)
+                                        .addComponent(jButtonGenerarInforme, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(jLabel9))
                                 .addGap(0, 0, Short.MAX_VALUE))
                             .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING))
                         .addContainerGap())))
@@ -526,17 +557,23 @@ public class VerProductos extends javax.swing.JFrame {
                 .addGap(1, 1, 1)
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButtonAnhadir, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButtonEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButtonModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel8)
-                    .addComponent(jLabel6)
-                    .addComponent(jLabel7))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jButtonAnhadir, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButtonEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButtonModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel8)
+                            .addComponent(jLabel6)
+                            .addComponent(jLabel7)))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jButtonGenerarInforme, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel9)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                 .addContainerGap())
@@ -746,6 +783,40 @@ public class VerProductos extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jListProductosMouseClicked
 
+    private void jButtonGenerarInformeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGenerarInformeActionPerformed
+        String reportSource = "./src/informes/productos.jrxml";
+        String reportHTML = "./informes/Informe.html";
+        String reportPDF = "./informes/Informe.pdf";
+        String reportXML = "./informes/Informe.xml";
+
+        Map<String, Object> params = new HashMap<String, Object>();
+        try {
+            net.sf.jasperreports.engine.JasperReport jasperReport = JasperCompileManager.compileReport(reportSource);
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conn = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/boldgest", "root", "");
+            JasperPrint MiInforme = JasperFillManager.fillReport(jasperReport, params, conn);
+            // Visualizar en pantalla
+            JasperViewer.viewReport(MiInforme);
+            // Convertir a HTML
+            JasperExportManager.exportReportToHtmlFile(MiInforme, reportHTML);
+            // Convertir a PDF
+            JasperExportManager.exportReportToPdfFile(MiInforme, reportPDF);
+            // Convertir a XML, false es para indicar que no hay imagenes
+            // (isEmbeddingImages)
+            JasperExportManager.exportReportToXmlFile(MiInforme, reportXML, false);
+            System.out.println("ARCHIVOS CREADOS");
+        } catch (CommunicationsException c) {
+            System.out.println(" Error de comunicacion con la BD. No esta arrancada.");
+        } catch (ClassNotFoundException e) {
+            System.out.println(" Error driver. ");
+        } catch (SQLException e) {
+            System.out.println(" Error al ejecutar sentencia SQL ");
+        } catch (Exception ex) {
+            System.out.println(" Error Jasper.");
+            ex.printStackTrace();
+        }
+    }//GEN-LAST:event_jButtonGenerarInformeActionPerformed
+
     /**
      * Modificar la opacidad y el relleno de los botones.
      *
@@ -838,6 +909,7 @@ public class VerProductos extends javax.swing.JFrame {
     private javax.swing.JButton jButtonCompras;
     private javax.swing.JButton jButtonEliminar;
     private javax.swing.JButton jButtonEmpleados;
+    private javax.swing.JButton jButtonGenerarInforme;
     private javax.swing.JButton jButtonLogout;
     private javax.swing.JButton jButtonMenu1;
     private javax.swing.JButton jButtonModificar;
@@ -855,6 +927,7 @@ public class VerProductos extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel jLabelBienvenido;
     private javax.swing.JList<String> jListProductos;
     private javax.swing.JPanel jPanel1;
