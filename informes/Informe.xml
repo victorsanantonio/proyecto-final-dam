@@ -15,13 +15,13 @@
 		<image scaleImage="RetainShape" hAlign="Left" vAlign="Top">
 			<reportElement uuid="0f19f0f3-5e97-46cd-b7a4-b89131653226" x="20" y="20" width="101" height="79" origin="1" srcId="1"/>
 			<imageSource>
-				<![CDATA[.\informes\Informe.xml_files\img_1]]>
+				<![CDATA[.\informes\Informe.xml_files\img_0]]>
 			</imageSource>
 		</image>
 		<text textHeight="39.902344" lineSpacingFactor="1.3300781" leadingOffset="-7.529297">
 			<reportElement uuid="4f25c38b-3021-4484-a382-d0732e3d1f15" x="147" y="50" width="328" height="49" origin="1" srcId="2"/>
 			<font fontName="Segoe UI" size="30" isBold="true"/>
-			<textContent><![CDATA[Informe de clientes]]></textContent>
+			<textContent><![CDATA[Informe de compras]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.util.Date" pattern="dd/MM/yyyy">
 			<reportElement uuid="b48e15c5-724b-44a5-a734-b740ce287ac4" x="496" y="20" width="100" height="20" origin="1" srcId="3"/>
@@ -31,109 +31,130 @@
 			<reportElement uuid="27275c97-40e2-4939-8900-7574da372a65" x="20" y="172" width="555" height="1" origin="3" srcId="4"/>
 		</line>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="45b45840-5b32-43df-92aa-31137b310287" x="20" y="152" width="100" height="20" origin="3" srcId="5"/>
+			<reportElement uuid="e83b38b2-0c41-4e74-ad13-0a4c8a94c51b" x="21" y="153" width="100" height="20" origin="3" srcId="5"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Nombre]]></textContent>
+			<textContent><![CDATA[Proveedor]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="bd0ce39c-cf17-4652-b54c-c012265d62e4" x="120" y="152" width="100" height="20" origin="3" srcId="6"/>
+			<reportElement uuid="530ce9ef-a10f-4700-b00a-4ead60aebb85" x="221" y="153" width="100" height="20" origin="3" srcId="6"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[DNI]]></textContent>
+			<textContent><![CDATA[Código postal]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="cb006287-af5b-4914-bcc4-369078b0ff86" x="247" y="153" width="100" height="20" origin="3" srcId="7"/>
+			<reportElement uuid="132e4a73-1ca8-4139-9e8c-c0142ad86571" x="121" y="152" width="100" height="20" origin="3" srcId="7"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Teléfono]]></textContent>
+			<textContent><![CDATA[Empleado]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="f178d556-5d7e-48be-8011-77fac1c1dd43" x="360" y="153" width="100" height="20" origin="3" srcId="8"/>
+			<reportElement uuid="1ce41270-2a0f-4f83-adbe-fd7fbfc19e7e" x="321" y="152" width="100" height="20" origin="3" srcId="8"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Dirección]]></textContent>
+			<textContent><![CDATA[Producto]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="63f2918a-ee3a-4903-94e4-ecb1d32ce076" x="475" y="153" width="100" height="20" origin="3" srcId="9"/>
+			<reportElement uuid="ce45f6c0-0407-4582-a334-e7bb9e221032" x="421" y="153" width="100" height="20" origin="3" srcId="9"/>
 			<font isBold="true"/>
 			<textContent><![CDATA[Ciudad]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="245" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Bertrada Fährmann]]></textContent>
+			<reportElement uuid="bdc6ba74-6f4c-4ecf-98ba-ab21b873471a" x="521" y="152" width="100" height="20" origin="3" srcId="10"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[TOTAL]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="245" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[346185C]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="244" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Cäsar Angst]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="245" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[78570]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="245" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[2638 Riverview Pkwy]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="245" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[East Farnham]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="370" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Heiderose Klotz]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="370" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[848263Z]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="244" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[50]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="370" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[116496]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="370" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[80 White Woodfort Ln]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="370" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Woodstock]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="495" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Joko Adler]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="495" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[414434A]]></textContent>
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="244" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[7]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="495" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[47388]]></textContent>
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="244" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[22]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="495" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[925 Hope St]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="244" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="244" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[197843.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="495" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Lacombe]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="620" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Hemma Horkheimer]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="620" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[345573K]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="369" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Veit berländer]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="620" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[55269]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="369" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[48]]></textContent>
 		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="620" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[3755 Red Burwood ]]></textContent>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="369" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[28]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="369" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[1]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="620" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Zenon Park]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="369" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="369" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[7526250.0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="494" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Adlin  Feigenbaum]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="494" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[56]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="494" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[27]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="494" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[27]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="494" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="494" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[2604150.0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="619" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Baldur  Jost]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="619" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[484]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="619" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[45]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="619" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[22]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="619" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="619" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[5696450.0]]></textContent>
 		</text>
 	</page>
 	<page>
@@ -141,109 +162,130 @@
 			<reportElement uuid="27275c97-40e2-4939-8900-7574da372a65" x="20" y="93" width="555" height="1" origin="3" srcId="4"/>
 		</line>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="45b45840-5b32-43df-92aa-31137b310287" x="20" y="73" width="100" height="20" origin="3" srcId="5"/>
+			<reportElement uuid="e83b38b2-0c41-4e74-ad13-0a4c8a94c51b" x="21" y="74" width="100" height="20" origin="3" srcId="5"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Nombre]]></textContent>
+			<textContent><![CDATA[Proveedor]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="bd0ce39c-cf17-4652-b54c-c012265d62e4" x="120" y="73" width="100" height="20" origin="3" srcId="6"/>
+			<reportElement uuid="530ce9ef-a10f-4700-b00a-4ead60aebb85" x="221" y="74" width="100" height="20" origin="3" srcId="6"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[DNI]]></textContent>
+			<textContent><![CDATA[Código postal]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="cb006287-af5b-4914-bcc4-369078b0ff86" x="247" y="74" width="100" height="20" origin="3" srcId="7"/>
+			<reportElement uuid="132e4a73-1ca8-4139-9e8c-c0142ad86571" x="121" y="73" width="100" height="20" origin="3" srcId="7"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Teléfono]]></textContent>
+			<textContent><![CDATA[Empleado]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="f178d556-5d7e-48be-8011-77fac1c1dd43" x="360" y="74" width="100" height="20" origin="3" srcId="8"/>
+			<reportElement uuid="1ce41270-2a0f-4f83-adbe-fd7fbfc19e7e" x="321" y="73" width="100" height="20" origin="3" srcId="8"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Dirección]]></textContent>
+			<textContent><![CDATA[Producto]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="63f2918a-ee3a-4903-94e4-ecb1d32ce076" x="475" y="74" width="100" height="20" origin="3" srcId="9"/>
+			<reportElement uuid="ce45f6c0-0407-4582-a334-e7bb9e221032" x="421" y="74" width="100" height="20" origin="3" srcId="9"/>
 			<font isBold="true"/>
 			<textContent><![CDATA[Ciudad]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="166" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Helwig osenbaum]]></textContent>
+			<reportElement uuid="bdc6ba74-6f4c-4ecf-98ba-ab21b873471a" x="521" y="73" width="100" height="20" origin="3" srcId="10"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[TOTAL]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="166" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[565763K]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="165" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Svenson Baumbach]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="166" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[63996]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="166" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[3813 Hope St]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="166" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Bonanza]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="291" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Orthey Vogt]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="291" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[350989J]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="165" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[76]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="291" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[47105]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="291" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[1168 Lake Circle]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="291" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Constance Bay]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="416" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Hannfried Blume]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="416" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[829953N]]></textContent>
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="165" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[1]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="416" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[32009]]></textContent>
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="165" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[39]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="416" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[74 Burwood Way]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="165" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="165" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[7420570.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="416" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Swift Current]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="541" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Xenja Kirchner]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="541" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[906971Q]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="290" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Gotthard Günther]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="541" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[118445]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="290" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[50]]></textContent>
 		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="541" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[3836 Hunting Hill ]]></textContent>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="290" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[28]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="290" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[30]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="541" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Bonaventure]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="290" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="290" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[4797030.0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="415" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Svenna cheidemann]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="415" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[705]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="415" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[21]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="415" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[46]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="415" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="415" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[4618050.0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="540" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Landulf Kauer]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="540" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[328]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="540" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[23]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="540" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[38]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="540" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="540" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[2888270.0]]></textContent>
 		</text>
 	</page>
 	<page>
@@ -251,109 +293,130 @@
 			<reportElement uuid="27275c97-40e2-4939-8900-7574da372a65" x="20" y="93" width="555" height="1" origin="3" srcId="4"/>
 		</line>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="45b45840-5b32-43df-92aa-31137b310287" x="20" y="73" width="100" height="20" origin="3" srcId="5"/>
+			<reportElement uuid="e83b38b2-0c41-4e74-ad13-0a4c8a94c51b" x="21" y="74" width="100" height="20" origin="3" srcId="5"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Nombre]]></textContent>
+			<textContent><![CDATA[Proveedor]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="bd0ce39c-cf17-4652-b54c-c012265d62e4" x="120" y="73" width="100" height="20" origin="3" srcId="6"/>
+			<reportElement uuid="530ce9ef-a10f-4700-b00a-4ead60aebb85" x="221" y="74" width="100" height="20" origin="3" srcId="6"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[DNI]]></textContent>
+			<textContent><![CDATA[Código postal]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="cb006287-af5b-4914-bcc4-369078b0ff86" x="247" y="74" width="100" height="20" origin="3" srcId="7"/>
+			<reportElement uuid="132e4a73-1ca8-4139-9e8c-c0142ad86571" x="121" y="73" width="100" height="20" origin="3" srcId="7"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Teléfono]]></textContent>
+			<textContent><![CDATA[Empleado]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="f178d556-5d7e-48be-8011-77fac1c1dd43" x="360" y="74" width="100" height="20" origin="3" srcId="8"/>
+			<reportElement uuid="1ce41270-2a0f-4f83-adbe-fd7fbfc19e7e" x="321" y="73" width="100" height="20" origin="3" srcId="8"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Dirección]]></textContent>
+			<textContent><![CDATA[Producto]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="63f2918a-ee3a-4903-94e4-ecb1d32ce076" x="475" y="74" width="100" height="20" origin="3" srcId="9"/>
+			<reportElement uuid="ce45f6c0-0407-4582-a334-e7bb9e221032" x="421" y="74" width="100" height="20" origin="3" srcId="9"/>
 			<font isBold="true"/>
 			<textContent><![CDATA[Ciudad]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="166" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Selinda Keller]]></textContent>
+			<reportElement uuid="bdc6ba74-6f4c-4ecf-98ba-ab21b873471a" x="521" y="73" width="100" height="20" origin="3" srcId="10"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[TOTAL]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="166" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[776844W]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="165" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Claudelle Berens]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="166" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[35020]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="166" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[3603 Stonewood Ct]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="166" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Minden]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="291" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Pontianus Heinz]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="291" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[687914B]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="165" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[208]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="291" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[81065]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="291" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[3490 Quailwood ]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="291" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Lac-Poulin]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="416" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Berengar Heitsch]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="416" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[999504G]]></textContent>
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="165" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[42]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="416" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[60992]]></textContent>
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="165" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[17]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="416" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[402 Bayview Avenue]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="165" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="165" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[1603150.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="416" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Mine Centre]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="541" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Clemendina Tischler]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="541" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[302532G]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="290" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Justus ascher]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="541" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[117478]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="290" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[703]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="290" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[11]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="290" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[46]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="541" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[647 Hidden Front Blvd]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="290" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="290" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[4304060.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="541" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Woodville]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="415" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Sonja Simmel]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="415" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[882]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="415" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[4]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="415" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[48]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="415" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="415" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[7293840.0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="540" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Aurita Möbius]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="540" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[710]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="540" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[37]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="540" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[16]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="540" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="540" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[6148780.0]]></textContent>
 		</text>
 	</page>
 	<page>
@@ -361,109 +424,130 @@
 			<reportElement uuid="27275c97-40e2-4939-8900-7574da372a65" x="20" y="93" width="555" height="1" origin="3" srcId="4"/>
 		</line>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="45b45840-5b32-43df-92aa-31137b310287" x="20" y="73" width="100" height="20" origin="3" srcId="5"/>
+			<reportElement uuid="e83b38b2-0c41-4e74-ad13-0a4c8a94c51b" x="21" y="74" width="100" height="20" origin="3" srcId="5"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Nombre]]></textContent>
+			<textContent><![CDATA[Proveedor]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="bd0ce39c-cf17-4652-b54c-c012265d62e4" x="120" y="73" width="100" height="20" origin="3" srcId="6"/>
+			<reportElement uuid="530ce9ef-a10f-4700-b00a-4ead60aebb85" x="221" y="74" width="100" height="20" origin="3" srcId="6"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[DNI]]></textContent>
+			<textContent><![CDATA[Código postal]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="cb006287-af5b-4914-bcc4-369078b0ff86" x="247" y="74" width="100" height="20" origin="3" srcId="7"/>
+			<reportElement uuid="132e4a73-1ca8-4139-9e8c-c0142ad86571" x="121" y="73" width="100" height="20" origin="3" srcId="7"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Teléfono]]></textContent>
+			<textContent><![CDATA[Empleado]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="f178d556-5d7e-48be-8011-77fac1c1dd43" x="360" y="74" width="100" height="20" origin="3" srcId="8"/>
+			<reportElement uuid="1ce41270-2a0f-4f83-adbe-fd7fbfc19e7e" x="321" y="73" width="100" height="20" origin="3" srcId="8"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Dirección]]></textContent>
+			<textContent><![CDATA[Producto]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="63f2918a-ee3a-4903-94e4-ecb1d32ce076" x="475" y="74" width="100" height="20" origin="3" srcId="9"/>
+			<reportElement uuid="ce45f6c0-0407-4582-a334-e7bb9e221032" x="421" y="74" width="100" height="20" origin="3" srcId="9"/>
 			<font isBold="true"/>
 			<textContent><![CDATA[Ciudad]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="166" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Adine  Wulf]]></textContent>
+			<reportElement uuid="bdc6ba74-6f4c-4ecf-98ba-ab21b873471a" x="521" y="73" width="100" height="20" origin="3" srcId="10"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[TOTAL]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="166" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[499180K]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="165" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Crystle Wirt]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="166" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[85302]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="166" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[3744 Woodhurst ]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="166" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Swift River]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="291" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Falina Lohmann]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="291" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[882942S]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="165" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[702]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="291" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[119611]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="291" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[683 SW Stonewood ]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="291" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Woody Point]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="416" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Lovis Jens]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="416" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[152743V]]></textContent>
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="165" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[8]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="416" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[42508]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="416" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[2254 W Riverview ]]></textContent>
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="165" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[3]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="416" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Lac-Saguay]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="165" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="165" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[7588170.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="541" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Amrei ozart]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="541" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[445609J]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="290" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Wiglaf Gebbels]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="541" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[38891]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="290" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[170]]></textContent>
 		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="541" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[1314 New Glenwood ]]></textContent>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="290" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[21]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="290" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[10]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="541" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Hague]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="290" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="290" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[772348.0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="415" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Uli Finkelstein]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="415" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[276]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="415" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[42]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="415" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[43]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="415" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="415" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[1990850.0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="540" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Goldina Luckner]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="540" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[524]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="540" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[3]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="540" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[47]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="540" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="540" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[402639.0]]></textContent>
 		</text>
 	</page>
 	<page>
@@ -471,109 +555,130 @@
 			<reportElement uuid="27275c97-40e2-4939-8900-7574da372a65" x="20" y="93" width="555" height="1" origin="3" srcId="4"/>
 		</line>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="45b45840-5b32-43df-92aa-31137b310287" x="20" y="73" width="100" height="20" origin="3" srcId="5"/>
+			<reportElement uuid="e83b38b2-0c41-4e74-ad13-0a4c8a94c51b" x="21" y="74" width="100" height="20" origin="3" srcId="5"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Nombre]]></textContent>
+			<textContent><![CDATA[Proveedor]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="bd0ce39c-cf17-4652-b54c-c012265d62e4" x="120" y="73" width="100" height="20" origin="3" srcId="6"/>
+			<reportElement uuid="530ce9ef-a10f-4700-b00a-4ead60aebb85" x="221" y="74" width="100" height="20" origin="3" srcId="6"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[DNI]]></textContent>
+			<textContent><![CDATA[Código postal]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="cb006287-af5b-4914-bcc4-369078b0ff86" x="247" y="74" width="100" height="20" origin="3" srcId="7"/>
+			<reportElement uuid="132e4a73-1ca8-4139-9e8c-c0142ad86571" x="121" y="73" width="100" height="20" origin="3" srcId="7"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Teléfono]]></textContent>
+			<textContent><![CDATA[Empleado]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="f178d556-5d7e-48be-8011-77fac1c1dd43" x="360" y="74" width="100" height="20" origin="3" srcId="8"/>
+			<reportElement uuid="1ce41270-2a0f-4f83-adbe-fd7fbfc19e7e" x="321" y="73" width="100" height="20" origin="3" srcId="8"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Dirección]]></textContent>
+			<textContent><![CDATA[Producto]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="63f2918a-ee3a-4903-94e4-ecb1d32ce076" x="475" y="74" width="100" height="20" origin="3" srcId="9"/>
+			<reportElement uuid="ce45f6c0-0407-4582-a334-e7bb9e221032" x="421" y="74" width="100" height="20" origin="3" srcId="9"/>
 			<font isBold="true"/>
 			<textContent><![CDATA[Ciudad]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="166" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Catrin Gutzeit]]></textContent>
+			<reportElement uuid="bdc6ba74-6f4c-4ecf-98ba-ab21b873471a" x="521" y="73" width="100" height="20" origin="3" srcId="10"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[TOTAL]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="166" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[310434N]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="165" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Peider Vogt]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="166" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[112981]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="166" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[781 North Hunting Hill ]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="166" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Port au Choix]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="291" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Conny Dippel]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="291" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[605265W]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="165" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[8]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="291" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[53366]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="291" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[502 New Highland ]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="291" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Sydenham]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="416" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Armgard Kopf]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="416" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[008374Z]]></textContent>
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="165" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[5]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="416" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[114919]]></textContent>
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="165" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[23]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="416" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[2961 Deepwood Dr]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="165" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="165" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[5766080.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="416" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Seeleys Bay]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="541" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Korth Baur]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="541" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[478392N]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="290" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Lusia Kraft]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="541" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[112258]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="290" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[203]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="290" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[24]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="290" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[8]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="541" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[1156 Town Avenue]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="290" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="290" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[6560430.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="541" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Ming's Bight]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="415" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Finjas Mager]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="415" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[702]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="415" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[33]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="415" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[32]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="415" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="415" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[3245590.0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="540" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Otger Küchelbecker]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="540" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[882]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="540" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[33]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="540" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[45]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="540" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="540" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[3696910.0]]></textContent>
 		</text>
 	</page>
 	<page>
@@ -581,109 +686,130 @@
 			<reportElement uuid="27275c97-40e2-4939-8900-7574da372a65" x="20" y="93" width="555" height="1" origin="3" srcId="4"/>
 		</line>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="45b45840-5b32-43df-92aa-31137b310287" x="20" y="73" width="100" height="20" origin="3" srcId="5"/>
+			<reportElement uuid="e83b38b2-0c41-4e74-ad13-0a4c8a94c51b" x="21" y="74" width="100" height="20" origin="3" srcId="5"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Nombre]]></textContent>
+			<textContent><![CDATA[Proveedor]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="bd0ce39c-cf17-4652-b54c-c012265d62e4" x="120" y="73" width="100" height="20" origin="3" srcId="6"/>
+			<reportElement uuid="530ce9ef-a10f-4700-b00a-4ead60aebb85" x="221" y="74" width="100" height="20" origin="3" srcId="6"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[DNI]]></textContent>
+			<textContent><![CDATA[Código postal]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="cb006287-af5b-4914-bcc4-369078b0ff86" x="247" y="74" width="100" height="20" origin="3" srcId="7"/>
+			<reportElement uuid="132e4a73-1ca8-4139-9e8c-c0142ad86571" x="121" y="73" width="100" height="20" origin="3" srcId="7"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Teléfono]]></textContent>
+			<textContent><![CDATA[Empleado]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="f178d556-5d7e-48be-8011-77fac1c1dd43" x="360" y="74" width="100" height="20" origin="3" srcId="8"/>
+			<reportElement uuid="1ce41270-2a0f-4f83-adbe-fd7fbfc19e7e" x="321" y="73" width="100" height="20" origin="3" srcId="8"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Dirección]]></textContent>
+			<textContent><![CDATA[Producto]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="63f2918a-ee3a-4903-94e4-ecb1d32ce076" x="475" y="74" width="100" height="20" origin="3" srcId="9"/>
+			<reportElement uuid="ce45f6c0-0407-4582-a334-e7bb9e221032" x="421" y="74" width="100" height="20" origin="3" srcId="9"/>
 			<font isBold="true"/>
 			<textContent><![CDATA[Ciudad]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="166" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Lenchen Schwarz]]></textContent>
+			<reportElement uuid="bdc6ba74-6f4c-4ecf-98ba-ab21b873471a" x="521" y="73" width="100" height="20" origin="3" srcId="10"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[TOTAL]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="166" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[349366B]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="165" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Maxerus Fellendorf]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="166" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[42342]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="166" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[2008 Town Cir]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="166" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Port Aux Basques]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="291" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Barthel  Mauch]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="291" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[889497Y]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="165" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[36]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="291" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[23029]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="291" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[81 Beachwood Lane]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="291" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Wooler]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="416" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Krispin Heckler]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="416" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[276705P]]></textContent>
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="165" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[4]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="416" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[67642]]></textContent>
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="165" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[1]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="416" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[51 Stonewood Pkwy]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="165" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="165" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[895032.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="416" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Lac-Sergent]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="541" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Wilbrecht Ebel]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="541" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[939021V]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="290" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Mayen Heinemann]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="541" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[97987]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="290" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[4]]></textContent>
 		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="541" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[725 NW Waterview ]]></textContent>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="290" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[32]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="290" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[36]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="541" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Consul]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="290" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="290" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[2352410.0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="415" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Björke Dautzenberg]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="415" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[752]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="415" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[22]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="415" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[8]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="415" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="415" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[7236640.0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="540" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Lisandra Anger]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="540" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[320]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="540" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[23]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="540" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[12]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="540" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="540" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[2234190.0]]></textContent>
 		</text>
 	</page>
 	<page>
@@ -691,109 +817,130 @@
 			<reportElement uuid="27275c97-40e2-4939-8900-7574da372a65" x="20" y="93" width="555" height="1" origin="3" srcId="4"/>
 		</line>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="45b45840-5b32-43df-92aa-31137b310287" x="20" y="73" width="100" height="20" origin="3" srcId="5"/>
+			<reportElement uuid="e83b38b2-0c41-4e74-ad13-0a4c8a94c51b" x="21" y="74" width="100" height="20" origin="3" srcId="5"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Nombre]]></textContent>
+			<textContent><![CDATA[Proveedor]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="bd0ce39c-cf17-4652-b54c-c012265d62e4" x="120" y="73" width="100" height="20" origin="3" srcId="6"/>
+			<reportElement uuid="530ce9ef-a10f-4700-b00a-4ead60aebb85" x="221" y="74" width="100" height="20" origin="3" srcId="6"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[DNI]]></textContent>
+			<textContent><![CDATA[Código postal]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="cb006287-af5b-4914-bcc4-369078b0ff86" x="247" y="74" width="100" height="20" origin="3" srcId="7"/>
+			<reportElement uuid="132e4a73-1ca8-4139-9e8c-c0142ad86571" x="121" y="73" width="100" height="20" origin="3" srcId="7"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Teléfono]]></textContent>
+			<textContent><![CDATA[Empleado]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="f178d556-5d7e-48be-8011-77fac1c1dd43" x="360" y="74" width="100" height="20" origin="3" srcId="8"/>
+			<reportElement uuid="1ce41270-2a0f-4f83-adbe-fd7fbfc19e7e" x="321" y="73" width="100" height="20" origin="3" srcId="8"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Dirección]]></textContent>
+			<textContent><![CDATA[Producto]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="63f2918a-ee3a-4903-94e4-ecb1d32ce076" x="475" y="74" width="100" height="20" origin="3" srcId="9"/>
+			<reportElement uuid="ce45f6c0-0407-4582-a334-e7bb9e221032" x="421" y="74" width="100" height="20" origin="3" srcId="9"/>
 			<font isBold="true"/>
 			<textContent><![CDATA[Ciudad]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="166" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Dieter ietzsche]]></textContent>
+			<reportElement uuid="bdc6ba74-6f4c-4ecf-98ba-ab21b873471a" x="521" y="73" width="100" height="20" origin="3" srcId="10"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[TOTAL]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="166" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[174218B]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="165" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Kuno Husemann]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="166" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[47763]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="166" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[75 Beachwood Way]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="166" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Miniota]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="291" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Rüder Hermann]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="291" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[274776F]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="165" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[792]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="291" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[101021]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="291" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[222 Burwood Pkwy]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="291" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Lac-St-Joseph]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="416" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[California Zabel]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="416" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[401215B]]></textContent>
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="165" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[47]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="416" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[46237]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="416" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[959 East ]]></textContent>
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="165" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[24]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="416" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Selby]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="165" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="165" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[8113890.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="541" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Fredegar chultz]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="541" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[577147H]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="290" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Rüder chröder]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="541" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[66822]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="290" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[400]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="290" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[13]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="290" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[27]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="541" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[2004 Mountain Dr]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="290" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="290" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[3204940.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="541" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Port Bickerton]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="415" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Ablona  Klemperer]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="415" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[250]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="415" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[41]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="415" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[34]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="415" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="415" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[2211440.0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="540" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Hieronymus Stein]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="540" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[268]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="540" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[40]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="540" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[15]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="540" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="540" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[9641760.0]]></textContent>
 		</text>
 	</page>
 	<page>
@@ -801,109 +948,130 @@
 			<reportElement uuid="27275c97-40e2-4939-8900-7574da372a65" x="20" y="93" width="555" height="1" origin="3" srcId="4"/>
 		</line>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="45b45840-5b32-43df-92aa-31137b310287" x="20" y="73" width="100" height="20" origin="3" srcId="5"/>
+			<reportElement uuid="e83b38b2-0c41-4e74-ad13-0a4c8a94c51b" x="21" y="74" width="100" height="20" origin="3" srcId="5"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Nombre]]></textContent>
+			<textContent><![CDATA[Proveedor]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="bd0ce39c-cf17-4652-b54c-c012265d62e4" x="120" y="73" width="100" height="20" origin="3" srcId="6"/>
+			<reportElement uuid="530ce9ef-a10f-4700-b00a-4ead60aebb85" x="221" y="74" width="100" height="20" origin="3" srcId="6"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[DNI]]></textContent>
+			<textContent><![CDATA[Código postal]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="cb006287-af5b-4914-bcc4-369078b0ff86" x="247" y="74" width="100" height="20" origin="3" srcId="7"/>
+			<reportElement uuid="132e4a73-1ca8-4139-9e8c-c0142ad86571" x="121" y="73" width="100" height="20" origin="3" srcId="7"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Teléfono]]></textContent>
+			<textContent><![CDATA[Empleado]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="f178d556-5d7e-48be-8011-77fac1c1dd43" x="360" y="74" width="100" height="20" origin="3" srcId="8"/>
+			<reportElement uuid="1ce41270-2a0f-4f83-adbe-fd7fbfc19e7e" x="321" y="73" width="100" height="20" origin="3" srcId="8"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Dirección]]></textContent>
+			<textContent><![CDATA[Producto]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="63f2918a-ee3a-4903-94e4-ecb1d32ce076" x="475" y="74" width="100" height="20" origin="3" srcId="9"/>
+			<reportElement uuid="ce45f6c0-0407-4582-a334-e7bb9e221032" x="421" y="74" width="100" height="20" origin="3" srcId="9"/>
 			<font isBold="true"/>
 			<textContent><![CDATA[Ciudad]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="166" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Lisa-Maria Marschner]]></textContent>
+			<reportElement uuid="bdc6ba74-6f4c-4ecf-98ba-ab21b873471a" x="521" y="73" width="100" height="20" origin="3" srcId="10"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[TOTAL]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="166" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[744814N]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="165" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Wolfrad Feierbach]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="166" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[113598]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="166" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[2008 3rd Ct]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="166" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Selkirk]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="291" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Aurion  Günther]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="291" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[467132Q]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="165" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[32]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="291" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[111663]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="291" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[894 Old Rock Hill ]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="291" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[East Gwillimbury]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="416" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Friedwart osenblatt]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="416" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[280299L]]></textContent>
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="165" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[37]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="416" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[101072]]></textContent>
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="165" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[12]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="416" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[2274 E Lake Ct]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="165" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="165" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[8728140.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="416" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Haileybury]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="541" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Cölestin Treviranus]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="541" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[686262J]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="290" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Kosmea verbeck]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="541" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[95091]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="290" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[400]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="290" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[47]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="290" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[21]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="541" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[1052 Deepwood Cir]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="290" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="290" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[6990950.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="541" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Sydney]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="415" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Lejana omberg]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="415" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[458]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="415" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[13]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="415" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[2]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="415" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="415" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[2763020.0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="540" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Baldo  Baade]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="540" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[578]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="540" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[46]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="540" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[44]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="540" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="540" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[7933200.0]]></textContent>
 		</text>
 	</page>
 	<page>
@@ -911,109 +1079,130 @@
 			<reportElement uuid="27275c97-40e2-4939-8900-7574da372a65" x="20" y="93" width="555" height="1" origin="3" srcId="4"/>
 		</line>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="45b45840-5b32-43df-92aa-31137b310287" x="20" y="73" width="100" height="20" origin="3" srcId="5"/>
+			<reportElement uuid="e83b38b2-0c41-4e74-ad13-0a4c8a94c51b" x="21" y="74" width="100" height="20" origin="3" srcId="5"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Nombre]]></textContent>
+			<textContent><![CDATA[Proveedor]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="bd0ce39c-cf17-4652-b54c-c012265d62e4" x="120" y="73" width="100" height="20" origin="3" srcId="6"/>
+			<reportElement uuid="530ce9ef-a10f-4700-b00a-4ead60aebb85" x="221" y="74" width="100" height="20" origin="3" srcId="6"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[DNI]]></textContent>
+			<textContent><![CDATA[Código postal]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="cb006287-af5b-4914-bcc4-369078b0ff86" x="247" y="74" width="100" height="20" origin="3" srcId="7"/>
+			<reportElement uuid="132e4a73-1ca8-4139-9e8c-c0142ad86571" x="121" y="73" width="100" height="20" origin="3" srcId="7"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Teléfono]]></textContent>
+			<textContent><![CDATA[Empleado]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="f178d556-5d7e-48be-8011-77fac1c1dd43" x="360" y="74" width="100" height="20" origin="3" srcId="8"/>
+			<reportElement uuid="1ce41270-2a0f-4f83-adbe-fd7fbfc19e7e" x="321" y="73" width="100" height="20" origin="3" srcId="8"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Dirección]]></textContent>
+			<textContent><![CDATA[Producto]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="63f2918a-ee3a-4903-94e4-ecb1d32ce076" x="475" y="74" width="100" height="20" origin="3" srcId="9"/>
+			<reportElement uuid="ce45f6c0-0407-4582-a334-e7bb9e221032" x="421" y="74" width="100" height="20" origin="3" srcId="9"/>
 			<font isBold="true"/>
 			<textContent><![CDATA[Ciudad]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="166" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Abeline  Kramer]]></textContent>
+			<reportElement uuid="bdc6ba74-6f4c-4ecf-98ba-ab21b873471a" x="521" y="73" width="100" height="20" origin="3" srcId="10"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[TOTAL]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="166" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[124993M]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="165" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Farhild Freund]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="166" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[106096]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="166" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[138 1st Drive]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="166" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Worsley]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="291" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Balte  Joseph]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="291" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[890911K]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="165" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[76]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="291" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[27313]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="291" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[2747 W Hope Hwy]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="291" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[East Hereford]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="416" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Chlothar Franz]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="416" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[607936E]]></textContent>
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="165" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[19]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="416" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[59725]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="416" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[3082 West Quailwood ]]></textContent>
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="165" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[17]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="416" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Minnedosa]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="165" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="165" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[4071900.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="541" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Dietlana Auerbach]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="541" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[722692X]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="290" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Julitta Langmann]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="541" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[56282]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="290" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[616]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="290" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[28]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="290" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[9]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="541" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[609 Rose Hill Court]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="290" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="290" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[541609.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="541" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Sylvan Lake]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="415" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Childerich Fries]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="415" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[558]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="415" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[19]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="415" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[7]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="415" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="415" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[7436530.0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="540" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Frederika Heldman]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="540" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[48]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="540" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[19]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="540" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[34]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="540" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="540" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[8080230.0]]></textContent>
 		</text>
 	</page>
 	<page>
@@ -1021,109 +1210,130 @@
 			<reportElement uuid="27275c97-40e2-4939-8900-7574da372a65" x="20" y="93" width="555" height="1" origin="3" srcId="4"/>
 		</line>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="45b45840-5b32-43df-92aa-31137b310287" x="20" y="73" width="100" height="20" origin="3" srcId="5"/>
+			<reportElement uuid="e83b38b2-0c41-4e74-ad13-0a4c8a94c51b" x="21" y="74" width="100" height="20" origin="3" srcId="5"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Nombre]]></textContent>
+			<textContent><![CDATA[Proveedor]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="bd0ce39c-cf17-4652-b54c-c012265d62e4" x="120" y="73" width="100" height="20" origin="3" srcId="6"/>
+			<reportElement uuid="530ce9ef-a10f-4700-b00a-4ead60aebb85" x="221" y="74" width="100" height="20" origin="3" srcId="6"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[DNI]]></textContent>
+			<textContent><![CDATA[Código postal]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="cb006287-af5b-4914-bcc4-369078b0ff86" x="247" y="74" width="100" height="20" origin="3" srcId="7"/>
+			<reportElement uuid="132e4a73-1ca8-4139-9e8c-c0142ad86571" x="121" y="73" width="100" height="20" origin="3" srcId="7"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Teléfono]]></textContent>
+			<textContent><![CDATA[Empleado]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="f178d556-5d7e-48be-8011-77fac1c1dd43" x="360" y="74" width="100" height="20" origin="3" srcId="8"/>
+			<reportElement uuid="1ce41270-2a0f-4f83-adbe-fd7fbfc19e7e" x="321" y="73" width="100" height="20" origin="3" srcId="8"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Dirección]]></textContent>
+			<textContent><![CDATA[Producto]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="63f2918a-ee3a-4903-94e4-ecb1d32ce076" x="475" y="74" width="100" height="20" origin="3" srcId="9"/>
+			<reportElement uuid="ce45f6c0-0407-4582-a334-e7bb9e221032" x="421" y="74" width="100" height="20" origin="3" srcId="9"/>
 			<font isBold="true"/>
 			<textContent><![CDATA[Ciudad]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="166" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Mirinda Bartels]]></textContent>
+			<reportElement uuid="bdc6ba74-6f4c-4ecf-98ba-ab21b873471a" x="521" y="73" width="100" height="20" origin="3" srcId="10"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[TOTAL]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="166" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[981010A]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="165" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Brita icolai]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="166" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[39468]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="166" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[238 Pine Tree Dr]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="166" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Wotton]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="291" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Diepold Arnold]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="291" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[972060O]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="165" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[208]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="291" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[93211]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="291" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[17 Bayview Lane]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="291" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Bonavista]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="416" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Janeric Thalberg]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="416" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[839292W]]></textContent>
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="165" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[4]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="416" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[93779]]></textContent>
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="165" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[44]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="416" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[3747 Sharp Hill Dr]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="165" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="165" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[5247380.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="416" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Taber]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="541" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Adriane  chs]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="541" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[272531L]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="290" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Berend Wassermann]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="541" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[70082]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="290" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[887]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="290" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[20]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="290" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[40]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="541" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[327 New Church St]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="290" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="290" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[7263480.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="541" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Ladle Cove]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="415" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Amica Forster]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="415" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[233]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="415" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[43]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="415" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[6]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="415" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="415" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[3914930.0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="540" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Almut Horkheimer]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="540" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[372]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="540" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[1]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="540" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[34]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="540" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="540" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[5973000.0]]></textContent>
 		</text>
 	</page>
 	<page>
@@ -1131,109 +1341,130 @@
 			<reportElement uuid="27275c97-40e2-4939-8900-7574da372a65" x="20" y="93" width="555" height="1" origin="3" srcId="4"/>
 		</line>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="45b45840-5b32-43df-92aa-31137b310287" x="20" y="73" width="100" height="20" origin="3" srcId="5"/>
+			<reportElement uuid="e83b38b2-0c41-4e74-ad13-0a4c8a94c51b" x="21" y="74" width="100" height="20" origin="3" srcId="5"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Nombre]]></textContent>
+			<textContent><![CDATA[Proveedor]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="bd0ce39c-cf17-4652-b54c-c012265d62e4" x="120" y="73" width="100" height="20" origin="3" srcId="6"/>
+			<reportElement uuid="530ce9ef-a10f-4700-b00a-4ead60aebb85" x="221" y="74" width="100" height="20" origin="3" srcId="6"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[DNI]]></textContent>
+			<textContent><![CDATA[Código postal]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="cb006287-af5b-4914-bcc4-369078b0ff86" x="247" y="74" width="100" height="20" origin="3" srcId="7"/>
+			<reportElement uuid="132e4a73-1ca8-4139-9e8c-c0142ad86571" x="121" y="73" width="100" height="20" origin="3" srcId="7"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Teléfono]]></textContent>
+			<textContent><![CDATA[Empleado]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="f178d556-5d7e-48be-8011-77fac1c1dd43" x="360" y="74" width="100" height="20" origin="3" srcId="8"/>
+			<reportElement uuid="1ce41270-2a0f-4f83-adbe-fd7fbfc19e7e" x="321" y="73" width="100" height="20" origin="3" srcId="8"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Dirección]]></textContent>
+			<textContent><![CDATA[Producto]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="63f2918a-ee3a-4903-94e4-ecb1d32ce076" x="475" y="74" width="100" height="20" origin="3" srcId="9"/>
+			<reportElement uuid="ce45f6c0-0407-4582-a334-e7bb9e221032" x="421" y="74" width="100" height="20" origin="3" srcId="9"/>
 			<font isBold="true"/>
 			<textContent><![CDATA[Ciudad]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="166" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Volbrecht Angst]]></textContent>
+			<reportElement uuid="bdc6ba74-6f4c-4ecf-98ba-ab21b873471a" x="521" y="73" width="100" height="20" origin="3" srcId="10"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[TOTAL]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="166" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[431395M]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="165" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Thusnelda Imhof]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="166" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[45180]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="166" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[2147 Riverview Dr]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="166" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Minto]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="291" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Haiko erl]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="291" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[197238H]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="165" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[704]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="291" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[41645]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="291" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[2621 Mountain Circle]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="291" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Contrecoeur]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="416" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Avenell olken]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="416" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[774965J]]></textContent>
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="165" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[20]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="416" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[80833]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="416" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[806 Rose Hill ]]></textContent>
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="165" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[25]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="416" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Ladysmith]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="165" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="165" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[8520570.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="541" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Annalena Lichtenberg]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="541" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[277005I]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="290" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Norea Timroth]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="541" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[79077]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="290" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[276]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="290" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[17]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="290" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[14]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="541" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[3566 Old Hope Cir]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="290" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="290" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[2118380.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="541" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Port Blandford]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="415" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Cesar Jost]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="415" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[372]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="415" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[12]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="415" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[9]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="415" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="415" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[9219600.0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="540" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Maita Keller]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="540" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[704]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="540" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[15]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="540" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[50]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="540" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="540" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[4416460.0]]></textContent>
 		</text>
 	</page>
 	<page>
@@ -1241,109 +1472,130 @@
 			<reportElement uuid="27275c97-40e2-4939-8900-7574da372a65" x="20" y="93" width="555" height="1" origin="3" srcId="4"/>
 		</line>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="45b45840-5b32-43df-92aa-31137b310287" x="20" y="73" width="100" height="20" origin="3" srcId="5"/>
+			<reportElement uuid="e83b38b2-0c41-4e74-ad13-0a4c8a94c51b" x="21" y="74" width="100" height="20" origin="3" srcId="5"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Nombre]]></textContent>
+			<textContent><![CDATA[Proveedor]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="bd0ce39c-cf17-4652-b54c-c012265d62e4" x="120" y="73" width="100" height="20" origin="3" srcId="6"/>
+			<reportElement uuid="530ce9ef-a10f-4700-b00a-4ead60aebb85" x="221" y="74" width="100" height="20" origin="3" srcId="6"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[DNI]]></textContent>
+			<textContent><![CDATA[Código postal]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="cb006287-af5b-4914-bcc4-369078b0ff86" x="247" y="74" width="100" height="20" origin="3" srcId="7"/>
+			<reportElement uuid="132e4a73-1ca8-4139-9e8c-c0142ad86571" x="121" y="73" width="100" height="20" origin="3" srcId="7"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Teléfono]]></textContent>
+			<textContent><![CDATA[Empleado]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="f178d556-5d7e-48be-8011-77fac1c1dd43" x="360" y="74" width="100" height="20" origin="3" srcId="8"/>
+			<reportElement uuid="1ce41270-2a0f-4f83-adbe-fd7fbfc19e7e" x="321" y="73" width="100" height="20" origin="3" srcId="8"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Dirección]]></textContent>
+			<textContent><![CDATA[Producto]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="63f2918a-ee3a-4903-94e4-ecb1d32ce076" x="475" y="74" width="100" height="20" origin="3" srcId="9"/>
+			<reportElement uuid="ce45f6c0-0407-4582-a334-e7bb9e221032" x="421" y="74" width="100" height="20" origin="3" srcId="9"/>
 			<font isBold="true"/>
 			<textContent><![CDATA[Ciudad]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="166" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Haita aulig]]></textContent>
+			<reportElement uuid="bdc6ba74-6f4c-4ecf-98ba-ab21b873471a" x="521" y="73" width="100" height="20" origin="3" srcId="10"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[TOTAL]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="166" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[346982Y]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="165" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Chlothar Jäger]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="166" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[20766]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="166" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[881 West Town Ln]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="166" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Semans]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="291" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Yente Fischnaller]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="291" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[684279W]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="165" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[100]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="291" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[46765]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="291" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[653 White Stonewood ]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="291" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Port Burwell]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="416" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Justus Laufer]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="416" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[506326B]]></textContent>
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="165" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[4]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="416" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[72414]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="416" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[2660 Old ]]></textContent>
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="165" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[3]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="416" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Senneterre]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="165" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="165" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[4820790.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="541" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Ottfried Abel]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="541" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[965255G]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="290" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Balte  Wegener]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="541" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[90816]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="290" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[404]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="290" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[47]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="290" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[35]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="541" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[1067 W Fox Hill Way]]></textContent>
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="290" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="290" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[3887460.0]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="541" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Wrentham]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="415" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Ailine  Altmann]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="415" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[748]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="415" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[8]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="415" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[47]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="415" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="415" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[2001080.0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="540" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Notburga Albrecht]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="540" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[716]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="540" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[48]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="540" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[47]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="540" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="540" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[7027510.0]]></textContent>
 		</text>
 	</page>
 	<page>
@@ -1351,72 +1603,85 @@
 			<reportElement uuid="27275c97-40e2-4939-8900-7574da372a65" x="20" y="93" width="555" height="1" origin="3" srcId="4"/>
 		</line>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="45b45840-5b32-43df-92aa-31137b310287" x="20" y="73" width="100" height="20" origin="3" srcId="5"/>
+			<reportElement uuid="e83b38b2-0c41-4e74-ad13-0a4c8a94c51b" x="21" y="74" width="100" height="20" origin="3" srcId="5"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Nombre]]></textContent>
+			<textContent><![CDATA[Proveedor]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="bd0ce39c-cf17-4652-b54c-c012265d62e4" x="120" y="73" width="100" height="20" origin="3" srcId="6"/>
+			<reportElement uuid="530ce9ef-a10f-4700-b00a-4ead60aebb85" x="221" y="74" width="100" height="20" origin="3" srcId="6"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[DNI]]></textContent>
+			<textContent><![CDATA[Código postal]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="cb006287-af5b-4914-bcc4-369078b0ff86" x="247" y="74" width="100" height="20" origin="3" srcId="7"/>
+			<reportElement uuid="132e4a73-1ca8-4139-9e8c-c0142ad86571" x="121" y="73" width="100" height="20" origin="3" srcId="7"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Teléfono]]></textContent>
+			<textContent><![CDATA[Empleado]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="f178d556-5d7e-48be-8011-77fac1c1dd43" x="360" y="74" width="100" height="20" origin="3" srcId="8"/>
+			<reportElement uuid="1ce41270-2a0f-4f83-adbe-fd7fbfc19e7e" x="321" y="73" width="100" height="20" origin="3" srcId="8"/>
 			<font isBold="true"/>
-			<textContent><![CDATA[Dirección]]></textContent>
+			<textContent><![CDATA[Producto]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="63f2918a-ee3a-4903-94e4-ecb1d32ce076" x="475" y="74" width="100" height="20" origin="3" srcId="9"/>
+			<reportElement uuid="ce45f6c0-0407-4582-a334-e7bb9e221032" x="421" y="74" width="100" height="20" origin="3" srcId="9"/>
 			<font isBold="true"/>
 			<textContent><![CDATA[Ciudad]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="166" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Almute Josef]]></textContent>
+			<reportElement uuid="bdc6ba74-6f4c-4ecf-98ba-ab21b873471a" x="521" y="73" width="100" height="20" origin="3" srcId="10"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[TOTAL]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="166" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[726015M]]></textContent>
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="165" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Caruso Abicht]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="166" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[54529]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="166" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[2889 SE Cedar Tree ]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="166" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Haines Junction]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="e45f4554-df59-4e8f-ac43-009399929fbb" x="20" y="291" width="100" height="20" origin="4" srcId="10"/>
-			<textContent><![CDATA[Friederun Appel]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="3920ef46-706c-45fc-9a04-47ff2a4ac120" x="137" y="291" width="100" height="20" origin="4" srcId="11"/>
-			<textContent><![CDATA[619042A]]></textContent>
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="165" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[56]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="47b6943b-80b3-4136-b9c6-031e1f0bb346" x="247" y="291" width="100" height="20" origin="4" srcId="12"/>
-			<textContent><![CDATA[31161]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="4bd6c645-9bda-4704-94f1-7f4d6221dba2" x="360" y="291" width="100" height="20" origin="4" srcId="13"/>
-			<textContent><![CDATA[3250 East Riverside ]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
-			<reportElement uuid="5307dd1b-407d-4709-a548-6ebc21464d4d" x="475" y="291" width="100" height="20" origin="4" srcId="14"/>
-			<textContent><![CDATA[Minton]]></textContent>
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="165" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[2]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
-			<reportElement uuid="0611e1ac-7cb7-4bd6-8dec-51e6be9e924e" x="475" y="388" width="100" height="20" origin="7" srcId="15"/>
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="165" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[8]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="165" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="165" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[2340250.0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="f113d5ad-3f73-400a-938d-ae09cc30d3c5" x="21" y="290" width="100" height="20" origin="4" srcId="11"/>
+			<textContent><![CDATA[Rüder Kloz]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="a1803140-cd56-49d0-915e-b4cdeee35f68" x="221" y="290" width="100" height="20" origin="4" srcId="12"/>
+			<textContent><![CDATA[724]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00" x="121" y="290" width="100" height="20" origin="4" srcId="13"/>
+			<textContent><![CDATA[17]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279" x="321" y="290" width="100" height="20" origin="4" srcId="14"/>
+			<textContent><![CDATA[25]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414">
+			<reportElement uuid="828364ec-694a-4e28-a01a-cf09a20f9548" x="421" y="290" width="100" height="20" origin="4" srcId="15"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Float">
+			<reportElement uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8" x="521" y="290" width="100" height="20" origin="4" srcId="16"/>
+			<textContent><![CDATA[7056980.0]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.524414" valueClass="java.lang.Integer">
+			<reportElement uuid="0611e1ac-7cb7-4bd6-8dec-51e6be9e924e" x="475" y="388" width="100" height="20" origin="7" srcId="17"/>
 			<textContent><![CDATA[13]]></textContent>
 		</text>
 	</page>

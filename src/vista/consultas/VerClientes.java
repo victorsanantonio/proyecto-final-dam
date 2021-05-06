@@ -8,7 +8,9 @@ package vista.consultas;
 import com.mysql.jdbc.CommunicationsException;
 import controlador.crud.Borrar;
 import controlador.crud.Consultar;
+import java.awt.Desktop;
 import java.awt.Dimension;
+import java.io.File;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -726,7 +728,7 @@ public class VerClientes extends javax.swing.JFrame {
         jMenuAyuda.setText("Ayuda");
         jMenuAyuda.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
 
-        jMenuItemAyuda.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F11, 0));
+        jMenuItemAyuda.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, 0));
         jMenuItemAyuda.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jMenuItemAyuda.setText("Obtener ayuda");
         jMenuItemAyuda.addActionListener(new java.awt.event.ActionListener() {
@@ -1087,7 +1089,22 @@ public class VerClientes extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItemProductosActionPerformed
 
     private void jMenuItemAyudaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemAyudaActionPerformed
-        JFrame ayuda = new JFrame();
+        try {
+            File f = new File("./ayudas/ayuda.pdf");
+            if(f.exists()){
+                if(Desktop.isDesktopSupported()){
+                    Desktop.getDesktop().open(f);
+                }
+                else{
+                    System.err.println("No soportado");
+                }
+            }
+            else{
+                JOptionPane.showMessageDialog(this, "Error al abrir la ayuda");
+            }
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
     }//GEN-LAST:event_jMenuItemAyudaActionPerformed
 
     /**
