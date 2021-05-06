@@ -17,7 +17,6 @@ import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 import javax.swing.DefaultListModel;
-import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import net.sf.jasperreports.engine.JasperCompileManager;
 import net.sf.jasperreports.engine.JasperExportManager;
@@ -781,6 +780,43 @@ public class VerClientes extends javax.swing.JFrame {
         menu.setVisible(true);
         this.setVisible(false);
     }
+    
+    private void verEmpleados(){
+        VerEmpleados verEmpleados = new VerEmpleados(nombreUsuario, rol);
+        verEmpleados.setVisible(true);
+        this.setVisible(false);
+    }
+    
+    private void verCompras(){
+        VerCompras verCompras = new VerCompras(nombreUsuario, rol);
+        verCompras.setVisible(true);
+        this.setVisible(false);
+    }
+    
+    private void verVentas(){
+        VerVentas verVentas = new VerVentas(nombreUsuario, rol);
+        verVentas.setVisible(true);
+        this.setVisible(false);
+    }
+    
+    private void verProveedores(){
+        VerProveedores verProveedores = new VerProveedores(nombreUsuario, rol);
+        verProveedores.setVisible(true);
+        this.setVisible(false);
+    }
+    
+    private void verClientes(){
+        VerClientes verClientes = new VerClientes(nombreUsuario, rol);
+        verClientes.setVisible(true);
+        this.setVisible(false);
+    }
+    
+    private void verProductos(){
+        VerProductos verProductos = new VerProductos(nombreUsuario, rol);
+        verProductos.setVisible(true);
+        this.setVisible(false);
+    }
+    
     /**
      * Acción del botón de "Menú principal"
      *
@@ -790,11 +826,6 @@ public class VerClientes extends javax.swing.JFrame {
         verMenu();
     }//GEN-LAST:event_jButtonMenu1ActionPerformed
 
-    private void verEmpleados(){
-        VerEmpleados verEmpleados = new VerEmpleados(nombreUsuario, rol);
-        verEmpleados.setVisible(true);
-        this.setVisible(false);
-    }
     /**
      * Acción del botón de "Empleados"
      *
@@ -804,11 +835,6 @@ public class VerClientes extends javax.swing.JFrame {
         verEmpleados();
     }//GEN-LAST:event_jButtonEmpleadosActionPerformed
 
-    private void verProveedores(){
-        VerProveedores verProveedores = new VerProveedores(nombreUsuario, rol);
-        verProveedores.setVisible(true);
-        this.setVisible(false);
-    }
     /**
      * Acción del botón de "Proveedores"
      *
@@ -819,11 +845,6 @@ public class VerClientes extends javax.swing.JFrame {
         verProveedores();
     }//GEN-LAST:event_jButtonProveedoresActionPerformed
 
-    private void verClientes(){
-        VerClientes verClientes = new VerClientes(nombreUsuario, rol);
-        verClientes.setVisible(true);
-        this.setVisible(false);
-    }
     /**
      * Acción del botón de "Clientes"
      *
@@ -832,13 +853,7 @@ public class VerClientes extends javax.swing.JFrame {
     private void jButtonClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonClientesActionPerformed
         verClientes();
     }//GEN-LAST:event_jButtonClientesActionPerformed
-
     
-    private void verCompras(){
-        VerCompras verCompras = new VerCompras(nombreUsuario, rol);
-        verCompras.setVisible(true);
-        this.setVisible(false);
-    }
     /**
      * Acción del botón de "Compras"
      *
@@ -847,13 +862,7 @@ public class VerClientes extends javax.swing.JFrame {
     private void jButtonComprasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonComprasActionPerformed
         verCompras();
     }//GEN-LAST:event_jButtonComprasActionPerformed
-
     
-    private void verVentas(){
-        VerVentas verVentas = new VerVentas(nombreUsuario, rol);
-        verVentas.setVisible(true);
-        this.setVisible(false);
-    }
     /**
      * Acción del botón de "Ventas"
      *
@@ -863,11 +872,6 @@ public class VerClientes extends javax.swing.JFrame {
         verVentas();
     }//GEN-LAST:event_jButtonVentasActionPerformed
 
-    private void verProductos(){
-        VerProductos verProductos = new VerProductos(nombreUsuario, rol);
-        verProductos.setVisible(true);
-        this.setVisible(false);
-    }
     /**
      * Acción del botón de "Productos"
      *
@@ -1018,14 +1022,14 @@ public class VerClientes extends javax.swing.JFrame {
     
     /**
      * Imprimir informe
-     * @param evt Pulsar botón de imprimir desde el menú
+     * @param evt Pulsar botón de imprimir
      */
     private void jButtonGenerarInformeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGenerarInformeActionPerformed
         imprimirInforme();
     }//GEN-LAST:event_jButtonGenerarInformeActionPerformed
 
     /**
-     * Imprimir informe
+     * Imprimir informe desde menú
      * @param evt Pulsar botón de imprimir desde el menú
      */
     private void jMenuItemGuardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemGuardarActionPerformed
@@ -1056,6 +1060,10 @@ public class VerClientes extends javax.swing.JFrame {
         eliminar();
     }//GEN-LAST:event_jMenuItemEliminarActionPerformed
 
+    /**
+     * Ver Compras
+     * @param evt Pulsar botón de ver compras desde el menú
+     */
     private void jMenuItemComprasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemComprasActionPerformed
         verCompras();
     }//GEN-LAST:event_jMenuItemComprasActionPerformed
@@ -1068,26 +1076,50 @@ public class VerClientes extends javax.swing.JFrame {
         verMenu();
     }//GEN-LAST:event_jMenuItemMenuPrincipalActionPerformed
 
+    /**
+     * Ver empleados desde menú
+     * @param evt Pulsar botón de ver empleados desde el menú
+     */
     private void jMenuItemEmpleadosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemEmpleadosActionPerformed
         verEmpleados();
     }//GEN-LAST:event_jMenuItemEmpleadosActionPerformed
 
+    /**
+     * Ver proveedores desde menú
+     * @param evt Pulsar botón de ver proveedores desde el menú
+     */
     private void jMenuItemProveedoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemProveedoresActionPerformed
         verProveedores();
     }//GEN-LAST:event_jMenuItemProveedoresActionPerformed
 
+    /**
+     * Ver clientes desde menú
+     * @param evt Pulsar botón de ver clientes desde el menú
+     */
     private void jMenuItemClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemClientesActionPerformed
         verClientes();
     }//GEN-LAST:event_jMenuItemClientesActionPerformed
 
+    /**
+     * Ver ventas desde menú
+     * @param evt Pulsar botón de ver ventas desde el menú
+     */
     private void jMenuItemVentasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemVentasActionPerformed
         verVentas();
     }//GEN-LAST:event_jMenuItemVentasActionPerformed
 
+    /**
+     * Ver productos desde menú
+     * @param evt Pulsar botón de ver productos desde el menú
+     */
     private void jMenuItemProductosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemProductosActionPerformed
         verProductos();
     }//GEN-LAST:event_jMenuItemProductosActionPerformed
 
+    /**
+     * Ver ayudas desde menú
+     * @param evt Pulsar botón de ver ayudas desde el menú
+     */
     private void jMenuItemAyudaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemAyudaActionPerformed
         try {
             File f = new File("./ayudas/ayuda.pdf");

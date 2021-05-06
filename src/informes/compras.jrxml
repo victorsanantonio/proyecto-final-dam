@@ -74,32 +74,25 @@ FROM
 				<text><![CDATA[Proveedor]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="201" y="19" width="100" height="20" uuid="530ce9ef-a10f-4700-b00a-4ead60aebb85"/>
+				<reportElement x="232" y="18" width="100" height="20" uuid="530ce9ef-a10f-4700-b00a-4ead60aebb85"/>
 				<textElement>
 					<font isBold="true"/>
 				</textElement>
 				<text><![CDATA[Código postal]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="101" y="18" width="100" height="20" uuid="132e4a73-1ca8-4139-9e8c-c0142ad86571"/>
+				<reportElement x="117" y="18" width="100" height="20" uuid="132e4a73-1ca8-4139-9e8c-c0142ad86571"/>
 				<textElement>
 					<font isBold="true"/>
 				</textElement>
 				<text><![CDATA[Empleado]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="301" y="18" width="100" height="20" uuid="1ce41270-2a0f-4f83-adbe-fd7fbfc19e7e"/>
+				<reportElement x="355" y="18" width="100" height="20" uuid="1ce41270-2a0f-4f83-adbe-fd7fbfc19e7e"/>
 				<textElement>
 					<font isBold="true"/>
 				</textElement>
 				<text><![CDATA[Producto]]></text>
-			</staticText>
-			<staticText>
-				<reportElement x="401" y="19" width="100" height="20" uuid="ce45f6c0-0407-4582-a334-e7bb9e221032"/>
-				<textElement>
-					<font isBold="true"/>
-				</textElement>
-				<text><![CDATA[Ciudad]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="501" y="18" width="100" height="20" uuid="bdc6ba74-6f4c-4ecf-98ba-ab21b873471a"/>
@@ -117,20 +110,16 @@ FROM
 				<textFieldExpression><![CDATA[$F{nombre_proveedor}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="201" y="49" width="100" height="20" uuid="a1803140-cd56-49d0-915e-b4cdeee35f68"/>
+				<reportElement x="232" y="49" width="100" height="20" uuid="a1803140-cd56-49d0-915e-b4cdeee35f68"/>
 				<textFieldExpression><![CDATA[$F{cod_postal}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="101" y="49" width="100" height="20" uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00"/>
+				<reportElement x="117" y="49" width="100" height="20" uuid="9f9fefa2-eee1-4f3e-9956-c66d37e34e00"/>
 				<textFieldExpression><![CDATA[$F{id_empleado}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="301" y="49" width="100" height="20" uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279"/>
+				<reportElement x="355" y="49" width="100" height="20" uuid="e96a05ce-cdb9-4ee9-8e21-a371d7a53279"/>
 				<textFieldExpression><![CDATA[$F{id_producto}]]></textFieldExpression>
-			</textField>
-			<textField>
-				<reportElement x="401" y="49" width="100" height="20" uuid="828364ec-694a-4e28-a01a-cf09a20f9548"/>
-				<textFieldExpression><![CDATA[$F{ciudad}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="501" y="49" width="100" height="20" uuid="09dae523-39b7-4d38-93f8-c1f4e214fea8"/>

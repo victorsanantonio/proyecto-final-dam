@@ -71,7 +71,7 @@ FROM
 				<text><![CDATA[Nombre]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="100" y="18" width="100" height="20" uuid="bd0ce39c-cf17-4652-b54c-c012265d62e4"/>
+				<reportElement x="117" y="18" width="100" height="20" uuid="bd0ce39c-cf17-4652-b54c-c012265d62e4"/>
 				<textElement>
 					<font isBold="true"/>
 				</textElement>

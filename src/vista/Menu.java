@@ -5,9 +5,12 @@
  */
 package vista;
 
+import java.awt.Desktop;
 import java.awt.Dimension;
+import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import javax.swing.JOptionPane;
 import vista.consultas.VerClientes;
 import vista.consultas.VerCompras;
 import vista.consultas.VerEmpleados;
@@ -123,6 +126,48 @@ public class Menu extends javax.swing.JFrame {
         return simpleDateFormat.format(fecha);
     }
 
+    private void verMenu(){
+        Menu menu = new Menu(nombreUsuario, rol);
+        menu.setVisible(true);
+        this.setVisible(false);
+    }
+    
+    private void verEmpleados(){
+        VerEmpleados verEmpleados = new VerEmpleados(nombreUsuario, rol);
+        verEmpleados.setVisible(true);
+        this.setVisible(false);
+    }
+    
+    private void verCompras(){
+        VerCompras verCompras = new VerCompras(nombreUsuario, rol);
+        verCompras.setVisible(true);
+        this.setVisible(false);
+    }
+    
+    private void verVentas(){
+        VerVentas verVentas = new VerVentas(nombreUsuario, rol);
+        verVentas.setVisible(true);
+        this.setVisible(false);
+    }
+    
+    private void verProveedores(){
+        VerProveedores verProveedores = new VerProveedores(nombreUsuario, rol);
+        verProveedores.setVisible(true);
+        this.setVisible(false);
+    }
+    
+    private void verClientes(){
+        VerClientes verClientes = new VerClientes(nombreUsuario, rol);
+        verClientes.setVisible(true);
+        this.setVisible(false);
+    }
+    
+    private void verProductos(){
+        VerProductos verProductos = new VerProductos(nombreUsuario, rol);
+        verProductos.setVisible(true);
+        this.setVisible(false);
+    }
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -162,6 +207,17 @@ public class Menu extends javax.swing.JFrame {
         jLabelHora = new javax.swing.JLabel();
         jButtonLogout = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenuVer = new javax.swing.JMenu();
+        jMenuItemMenuPrincipal = new javax.swing.JMenuItem();
+        jMenuItemEmpleados = new javax.swing.JMenuItem();
+        jMenuItemProveedores = new javax.swing.JMenuItem();
+        jMenuItemClientes = new javax.swing.JMenuItem();
+        jMenuItemCompras = new javax.swing.JMenuItem();
+        jMenuItemVentas = new javax.swing.JMenuItem();
+        jMenuItemProductos = new javax.swing.JMenuItem();
+        jMenuAyuda = new javax.swing.JMenu();
+        jMenuItemAyuda = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -502,6 +558,100 @@ public class Menu extends javax.swing.JFrame {
                 .addGap(77, 77, 77))
         );
 
+        jMenuBar1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+
+        jMenuVer.setText("Ver");
+        jMenuVer.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+
+        jMenuItemMenuPrincipal.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_M, java.awt.event.InputEvent.SHIFT_MASK | java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItemMenuPrincipal.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jMenuItemMenuPrincipal.setText("Menú principal");
+        jMenuItemMenuPrincipal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItemMenuPrincipalActionPerformed(evt);
+            }
+        });
+        jMenuVer.add(jMenuItemMenuPrincipal);
+
+        jMenuItemEmpleados.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_E, java.awt.event.InputEvent.SHIFT_MASK | java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItemEmpleados.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jMenuItemEmpleados.setText("Empleados");
+        jMenuItemEmpleados.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItemEmpleadosActionPerformed(evt);
+            }
+        });
+        jMenuVer.add(jMenuItemEmpleados);
+
+        jMenuItemProveedores.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.SHIFT_MASK | java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItemProveedores.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jMenuItemProveedores.setText("Proveedores");
+        jMenuItemProveedores.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItemProveedoresActionPerformed(evt);
+            }
+        });
+        jMenuVer.add(jMenuItemProveedores);
+
+        jMenuItemClientes.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_C, java.awt.event.InputEvent.SHIFT_MASK | java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItemClientes.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jMenuItemClientes.setText("Clientes");
+        jMenuItemClientes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItemClientesActionPerformed(evt);
+            }
+        });
+        jMenuVer.add(jMenuItemClientes);
+
+        jMenuItemCompras.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.SHIFT_MASK | java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItemCompras.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jMenuItemCompras.setText("Compras");
+        jMenuItemCompras.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItemComprasActionPerformed(evt);
+            }
+        });
+        jMenuVer.add(jMenuItemCompras);
+
+        jMenuItemVentas.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_V, java.awt.event.InputEvent.SHIFT_MASK | java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItemVentas.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jMenuItemVentas.setText("Ventas");
+        jMenuItemVentas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItemVentasActionPerformed(evt);
+            }
+        });
+        jMenuVer.add(jMenuItemVentas);
+
+        jMenuItemProductos.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_R, java.awt.event.InputEvent.SHIFT_MASK | java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItemProductos.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jMenuItemProductos.setText("Productos");
+        jMenuItemProductos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItemProductosActionPerformed(evt);
+            }
+        });
+        jMenuVer.add(jMenuItemProductos);
+
+        jMenuBar1.add(jMenuVer);
+
+        jMenuAyuda.setText("Ayuda");
+        jMenuAyuda.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+
+        jMenuItemAyuda.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, 0));
+        jMenuItemAyuda.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jMenuItemAyuda.setText("Obtener ayuda");
+        jMenuItemAyuda.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItemAyudaActionPerformed(evt);
+            }
+        });
+        jMenuAyuda.add(jMenuItemAyuda);
+
+        jMenuBar1.add(jMenuAyuda);
+
+        setJMenuBar(jMenuBar1);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -533,9 +683,7 @@ public class Menu extends javax.swing.JFrame {
      * @param evt Pulsar el botón "Menú principal"
      */
     private void jButtonMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonMenuActionPerformed
-        Menu menu = new Menu(nombreUsuario, rol);
-        menu.setVisible(true);
-        this.setVisible(false);
+        verMenu();
     }//GEN-LAST:event_jButtonMenuActionPerformed
 
     /**
@@ -544,15 +692,11 @@ public class Menu extends javax.swing.JFrame {
      * @param evt Pulsar el botón "Empleados"
      */
     private void jButtonEmpleadosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEmpleadosActionPerformed
-        VerEmpleados verEmpleados = new VerEmpleados(nombreUsuario, rol);
-        verEmpleados.setVisible(true);
-        this.setVisible(false);
+        verEmpleados();
     }//GEN-LAST:event_jButtonEmpleadosActionPerformed
 
     private void jButtonProveedoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonProveedoresActionPerformed
-        VerProveedores verProveedores = new VerProveedores(nombreUsuario, rol);
-        verProveedores.setVisible(true);
-        this.setVisible(false);
+        verProveedores();
     }//GEN-LAST:event_jButtonProveedoresActionPerformed
 
     /**
@@ -561,28 +705,99 @@ public class Menu extends javax.swing.JFrame {
      * @param evt Pulsar el botón "Clientes"
      */
     private void jButtonClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonClientesActionPerformed
-        VerClientes verClientes = new VerClientes(nombreUsuario, rol);
-        verClientes.setVisible(true);
-        this.setVisible(false);
+        verClientes();
     }//GEN-LAST:event_jButtonClientesActionPerformed
 
     private void jButtonComprasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonComprasActionPerformed
-        VerCompras verCompras = new VerCompras(nombreUsuario, rol);
-        verCompras.setVisible(true);
-        this.setVisible(false);
+        verCompras();
     }//GEN-LAST:event_jButtonComprasActionPerformed
 
     private void jButtonVentasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonVentasActionPerformed
-        VerVentas verVentas = new VerVentas(nombreUsuario, rol);
-        verVentas.setVisible(true);
-        this.setVisible(false);
+        verVentas();
     }//GEN-LAST:event_jButtonVentasActionPerformed
 
+    /**
+     * Ver Menú principal
+     * @param evt Pulsar botón de ver menú principal desde el menú
+     */
     private void jButtonProductosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonProductosActionPerformed
-        VerProductos verProductos = new VerProductos(nombreUsuario, rol);
-        verProductos.setVisible(true);
-        this.setVisible(false);
+        verProductos();
     }//GEN-LAST:event_jButtonProductosActionPerformed
+
+    private void jMenuItemMenuPrincipalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemMenuPrincipalActionPerformed
+        verMenu();
+    }//GEN-LAST:event_jMenuItemMenuPrincipalActionPerformed
+
+    /**
+     * Ver empleados desde menú
+     * @param evt Pulsar botón de ver empleados desde el menú
+     */
+    private void jMenuItemEmpleadosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemEmpleadosActionPerformed
+        verEmpleados();
+    }//GEN-LAST:event_jMenuItemEmpleadosActionPerformed
+
+    /**
+     * Ver proveedores desde menú
+     * @param evt Pulsar botón de ver proveedores desde el menú
+     */
+    private void jMenuItemProveedoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemProveedoresActionPerformed
+        verProveedores();
+    }//GEN-LAST:event_jMenuItemProveedoresActionPerformed
+
+    /**
+     * Ver clientes desde menú
+     * @param evt Pulsar botón de ver clientes desde el menú
+     */
+    private void jMenuItemClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemClientesActionPerformed
+        verClientes();
+    }//GEN-LAST:event_jMenuItemClientesActionPerformed
+
+    /**
+     * Ver compras desde menú
+     * @param evt Pulsar botón de ver compras desde el menú
+     */
+    private void jMenuItemComprasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemComprasActionPerformed
+        verCompras();
+    }//GEN-LAST:event_jMenuItemComprasActionPerformed
+
+    /**
+     * Ver ventas desde menú
+     * @param evt Pulsar botón de ver ventas desde el menú
+     */
+    private void jMenuItemVentasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemVentasActionPerformed
+        verVentas();
+    }//GEN-LAST:event_jMenuItemVentasActionPerformed
+
+    /**
+     * Ver productos desde menú
+     * @param evt Pulsar botón de ver productos desde el menú
+     */
+    private void jMenuItemProductosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemProductosActionPerformed
+        verProductos();
+    }//GEN-LAST:event_jMenuItemProductosActionPerformed
+
+    /**
+     * Ver ayudas desde menú
+     * @param evt Pulsar botón de ver ayudas desde el menú
+     */
+    private void jMenuItemAyudaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemAyudaActionPerformed
+        try {
+            File f = new File("./ayudas/ayuda.pdf");
+            if(f.exists()){
+                if(Desktop.isDesktopSupported()){
+                    Desktop.getDesktop().open(f);
+                }
+                else{
+                    System.err.println("No soportado");
+                }
+            }
+            else{
+                JOptionPane.showMessageDialog(this, "Error al abrir la ayuda");
+            }
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }//GEN-LAST:event_jMenuItemAyudaActionPerformed
 
     /**
      * Modificar la opacidad y el relleno de los botones.
@@ -687,6 +902,17 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabelBienvenido;
     private javax.swing.JLabel jLabelFecha;
     private javax.swing.JLabel jLabelHora;
+    private javax.swing.JMenu jMenuAyuda;
+    private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuItem jMenuItemAyuda;
+    private javax.swing.JMenuItem jMenuItemClientes;
+    private javax.swing.JMenuItem jMenuItemCompras;
+    private javax.swing.JMenuItem jMenuItemEmpleados;
+    private javax.swing.JMenuItem jMenuItemMenuPrincipal;
+    private javax.swing.JMenuItem jMenuItemProductos;
+    private javax.swing.JMenuItem jMenuItemProveedores;
+    private javax.swing.JMenuItem jMenuItemVentas;
+    private javax.swing.JMenu jMenuVer;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel14;
     private javax.swing.JPanel jPanel15;

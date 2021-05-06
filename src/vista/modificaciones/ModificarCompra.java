@@ -102,7 +102,6 @@ public class ModificarCompra extends javax.swing.JFrame {
         jComboBoxCategoriaProducto = new javax.swing.JComboBox<>();
         jPanel5 = new javax.swing.JPanel();
         jLabelImagen = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
         jLabelDescripcion = new javax.swing.JLabel();
         jLabelPrecio1 = new javax.swing.JLabel();
         jComboBoxProductos = new javax.swing.JComboBox<>();
@@ -262,9 +261,6 @@ public class ModificarCompra extends javax.swing.JFrame {
             .addComponent(jLabelImagen, javax.swing.GroupLayout.DEFAULT_SIZE, 390, Short.MAX_VALUE)
         );
 
-        jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 30)); // NOI18N
-        jLabel12.setText("Imagen:");
-
         jLabelDescripcion.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
 
         jLabelPrecio1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
@@ -309,10 +305,6 @@ public class ModificarCompra extends javax.swing.JFrame {
                 .addGap(30, 30, 30)
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel12)
-                .addGap(176, 176, 176))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -338,9 +330,7 @@ public class ModificarCompra extends javax.swing.JFrame {
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel29)
                     .addComponent(jComboBoxCategoriaProducto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel12)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(61, 61, 61)
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -978,7 +968,6 @@ public class ModificarCompra extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel23;

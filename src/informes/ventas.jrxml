@@ -111,7 +111,7 @@ FROM
 				<textFieldExpression><![CDATA[$F{id_empleado}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="400" y="56" width="100" height="20" uuid="4eae2060-8a18-4075-9ce4-8a2c59077145"/>
+				<reportElement x="413" y="56" width="100" height="20" uuid="4eae2060-8a18-4075-9ce4-8a2c59077145"/>
 				<textFieldExpression><![CDATA[$F{id_producto}]]></textFieldExpression>
 			</textField>
 			<textField>
