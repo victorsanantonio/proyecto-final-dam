@@ -766,6 +766,8 @@ public class VerEmpleados extends javax.swing.JFrame {
         //Deshabilitar botones
         jButtonEliminar.setEnabled(false);
         jButtonModificar.setEnabled(false);
+        jMenuItemEliminar.setEnabled(false);
+        jMenuItemModificar.setEnabled(false);
     }
 
     private void verMenu(){
@@ -974,6 +976,8 @@ public class VerEmpleados extends javax.swing.JFrame {
         if (jListEmpleados.getSelectedIndex() > -1) {
             jButtonEliminar.setEnabled(true);
             jButtonModificar.setEnabled(true);
+            jMenuItemEliminar.setEnabled(true);
+            jMenuItemModificar.setEnabled(true);
         }
     }//GEN-LAST:event_jListEmpleadosMouseClicked
 

@@ -7,6 +7,7 @@ package vista.inserciones;
 
 import vista.consultas.*;
 import controlador.crud.Insertar;
+import java.awt.Desktop;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
@@ -94,6 +95,12 @@ public class InsertarCliente extends javax.swing.JFrame {
         jLabelImagen = new javax.swing.JLabel();
         jButtonAceptar = new javax.swing.JButton();
         jButtonCancelar = new javax.swing.JButton();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenuEdicion = new javax.swing.JMenu();
+        jMenuItemAceptar = new javax.swing.JMenuItem();
+        jMenuItemCancelar = new javax.swing.JMenuItem();
+        jMenuAyuda = new javax.swing.JMenu();
+        jMenuItemAyuda = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -363,6 +370,50 @@ public class InsertarCliente extends javax.swing.JFrame {
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
 
+        jMenuBar1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+
+        jMenuEdicion.setText("Edición");
+        jMenuEdicion.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+
+        jMenuItemAceptar.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItemAceptar.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jMenuItemAceptar.setText("Aceptar");
+        jMenuItemAceptar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItemAceptarActionPerformed(evt);
+            }
+        });
+        jMenuEdicion.add(jMenuItemAceptar);
+
+        jMenuItemCancelar.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_K, java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItemCancelar.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jMenuItemCancelar.setText("Cancelar");
+        jMenuItemCancelar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItemCancelarActionPerformed(evt);
+            }
+        });
+        jMenuEdicion.add(jMenuItemCancelar);
+
+        jMenuBar1.add(jMenuEdicion);
+
+        jMenuAyuda.setText("Ayuda");
+        jMenuAyuda.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+
+        jMenuItemAyuda.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, 0));
+        jMenuItemAyuda.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jMenuItemAyuda.setText("Obtener ayuda");
+        jMenuItemAyuda.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItemAyudaActionPerformed(evt);
+            }
+        });
+        jMenuAyuda.add(jMenuItemAyuda);
+
+        jMenuBar1.add(jMenuAyuda);
+
+        setJMenuBar(jMenuBar1);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -402,6 +453,10 @@ public class InsertarCliente extends javax.swing.JFrame {
      * datos insertados
      */
     private void jButtonAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAceptarActionPerformed
+        aceptar();
+    }//GEN-LAST:event_jButtonAceptarActionPerformed
+
+    private void aceptar(){
         //Comprobar si todos los datos se han introducido correctamente
         if (nombreValido() && apellidosValido() && dniValido() && telefonoValido() && direccionValida() && codPostalValido()) {
             if (leerTelefono() > 0 && leerCodPostal() > 0) {
@@ -412,8 +467,7 @@ public class InsertarCliente extends javax.swing.JFrame {
         } else {
             JOptionPane.showMessageDialog(null, "No se ha podido realizar la inserción", "Error de introducción de datos", ERROR_MESSAGE);
         }
-    }//GEN-LAST:event_jButtonAceptarActionPerformed
-
+    }
     /**
      * Limpiar campos
      */
@@ -483,6 +537,10 @@ public class InsertarCliente extends javax.swing.JFrame {
      * @param evt Pulsar el botón "Cancelar" Limpia los campos
      */
     private void jButtonCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonCancelarActionPerformed
+        cancelar();
+    }//GEN-LAST:event_jButtonCancelarActionPerformed
+
+    private void cancelar(){
         //Mensaje de confirmación
         int opcion = JOptionPane.showConfirmDialog(null,
                 "¿Estás seguro de que deseas cancelar el relleno del formulario? Los campos escritos serán vaciados", "Cancelar", JOptionPane.YES_NO_OPTION);
@@ -490,7 +548,33 @@ public class InsertarCliente extends javax.swing.JFrame {
         if (opcion == 0) {
             limpiarCampos();
         }
-    }//GEN-LAST:event_jButtonCancelarActionPerformed
+    }
+    private void jMenuItemAyudaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemAyudaActionPerformed
+        try {
+            File f = new File("./ayudas/ayuda.pdf");
+            if(f.exists()){
+                if(Desktop.isDesktopSupported()){
+                    Desktop.getDesktop().open(f);
+                }
+                else{
+                    System.err.println("No soportado");
+                }
+            }
+            else{
+                JOptionPane.showMessageDialog(this, "Error al abrir la ayuda");
+            }
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }//GEN-LAST:event_jMenuItemAyudaActionPerformed
+
+    private void jMenuItemAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemAceptarActionPerformed
+        aceptar();
+    }//GEN-LAST:event_jMenuItemAceptarActionPerformed
+
+    private void jMenuItemCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemCancelarActionPerformed
+        cancelar();
+    }//GEN-LAST:event_jMenuItemCancelarActionPerformed
 
     /**
      * Validación del campo nombre
@@ -710,6 +794,12 @@ public class InsertarCliente extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabelBienvenido;
     private javax.swing.JLabel jLabelImagen;
+    private javax.swing.JMenu jMenuAyuda;
+    private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenu jMenuEdicion;
+    private javax.swing.JMenuItem jMenuItemAceptar;
+    private javax.swing.JMenuItem jMenuItemAyuda;
+    private javax.swing.JMenuItem jMenuItemCancelar;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;

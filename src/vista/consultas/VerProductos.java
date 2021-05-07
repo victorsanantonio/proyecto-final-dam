@@ -772,6 +772,8 @@ public class VerProductos extends javax.swing.JFrame {
         //Deshabilitar botones
         jButtonEliminar.setEnabled(false);
         jButtonModificar.setEnabled(false);
+        jMenuItemEliminar.setEnabled(false);
+        jMenuItemModificar.setEnabled(false);
     }
 
     private void verMenu(){
@@ -982,6 +984,8 @@ public class VerProductos extends javax.swing.JFrame {
         if (jListProductos.getSelectedIndex() > -1) {
             jButtonEliminar.setEnabled(true);
             jButtonModificar.setEnabled(true);
+            jMenuItemEliminar.setEnabled(true);
+            jMenuItemModificar.setEnabled(true);
         }
     }//GEN-LAST:event_jListProductosMouseClicked
 

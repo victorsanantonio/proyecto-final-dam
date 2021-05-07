@@ -772,6 +772,8 @@ public class VerVentas extends javax.swing.JFrame {
         //Deshabilitar botones
         jButtonEliminar.setEnabled(false);
         jButtonModificar.setEnabled(false);
+        jMenuItemEliminar.setEnabled(false);
+        jMenuItemModificar.setEnabled(false);
     }
 
     private void verMenu() {
@@ -984,6 +986,8 @@ public class VerVentas extends javax.swing.JFrame {
         if (jListVentas.getSelectedIndex() > -1) {
             jButtonEliminar.setEnabled(true);
             jButtonModificar.setEnabled(true);
+            jMenuItemEliminar.setEnabled(true);
+            jMenuItemModificar.setEnabled(true);
         }
     }//GEN-LAST:event_jListVentasMouseClicked
 
@@ -1024,9 +1028,10 @@ public class VerVentas extends javax.swing.JFrame {
             ex.printStackTrace();
         }
     }
-    
+
     /**
      * Imprimir informe desde menú
+     *
      * @param evt Pulsar botón de imprimir desde el menú
      */
     private void jMenuItemGuardar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemGuardar1ActionPerformed
@@ -1035,6 +1040,7 @@ public class VerVentas extends javax.swing.JFrame {
 
     /**
      * Añadir desde menú
+     *
      * @param evt Pulsar botón de añdir desde el menú
      */
     private void jMenuItemAnhadirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemAnhadirActionPerformed
@@ -1043,6 +1049,7 @@ public class VerVentas extends javax.swing.JFrame {
 
     /**
      * Eliminar
+     *
      * @param evt Pulsar botón de eliminar desde el menú
      */
     private void jMenuItemEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemEliminarActionPerformed
@@ -1051,6 +1058,7 @@ public class VerVentas extends javax.swing.JFrame {
 
     /**
      * Modificar
+     *
      * @param evt Pulsar botón de modificar desde el menú
      */
     private void jMenuItemModificarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemModificarActionPerformed
@@ -1059,6 +1067,7 @@ public class VerVentas extends javax.swing.JFrame {
 
     /**
      * Ver Menú principal
+     *
      * @param evt Pulsar botón de ver menú principal desde el menú
      */
     private void jMenuItemMenuPrincipalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemMenuPrincipalActionPerformed
@@ -1067,6 +1076,7 @@ public class VerVentas extends javax.swing.JFrame {
 
     /**
      * Ver empleados desde menú
+     *
      * @param evt Pulsar botón de ver empleados desde el menú
      */
     private void jMenuItemEmpleadosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemEmpleadosActionPerformed
@@ -1075,6 +1085,7 @@ public class VerVentas extends javax.swing.JFrame {
 
     /**
      * Ver proveedores desde menú
+     *
      * @param evt Pulsar botón de ver proveedores desde el menú
      */
     private void jMenuItemProveedoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemProveedoresActionPerformed
@@ -1083,6 +1094,7 @@ public class VerVentas extends javax.swing.JFrame {
 
     /**
      * Ver clientes desde menú
+     *
      * @param evt Pulsar botón de ver clientes desde el menú
      */
     private void jMenuItemClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemClientesActionPerformed
@@ -1091,6 +1103,7 @@ public class VerVentas extends javax.swing.JFrame {
 
     /**
      * Ver compras desde menú
+     *
      * @param evt Pulsar botón de ver compras desde el menú
      */
     private void jMenuItemComprasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemComprasActionPerformed
@@ -1099,6 +1112,7 @@ public class VerVentas extends javax.swing.JFrame {
 
     /**
      * Ver ventas desde menú
+     *
      * @param evt Pulsar botón de ver ventas desde el menú
      */
     private void jMenuItemVentasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemVentasActionPerformed
@@ -1107,6 +1121,7 @@ public class VerVentas extends javax.swing.JFrame {
 
     /**
      * Ver productos desde menú
+     *
      * @param evt Pulsar botón de ver productos desde el menú
      */
     private void jMenuItemProductosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemProductosActionPerformed
@@ -1115,6 +1130,7 @@ public class VerVentas extends javax.swing.JFrame {
 
     /**
      * Ver ayudas desde menú
+     *
      * @param evt Pulsar botón de ver ayudas desde el menú
      */
     private void jMenuItemAyudaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemAyudaActionPerformed
