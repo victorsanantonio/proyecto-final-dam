@@ -537,6 +537,7 @@ public class ModificarProducto extends javax.swing.JFrame {
         jTextFieldDescripcion.setText(producto.getDescripcion());
         jSpinner1.setValue(producto.getUnidades());
         jTextFieldPrecio.setText(Float.toString(producto.getPrecio()));
+        establecerImagenAlmacenada(producto.getImagen());
     }//GEN-LAST:event_formWindowActivated
 
     private void jMenuItemAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemAceptarActionPerformed

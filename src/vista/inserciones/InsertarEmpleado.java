@@ -481,7 +481,7 @@ public class InsertarEmpleado extends javax.swing.JFrame {
                             .addGroup(jPanel4Layout.createSequentialGroup()
                                 .addGap(11, 11, 11)
                                 .addComponent(jLabel23)
-                                .addGap(59, 59, 59)
+                                .addGap(35, 35, 35)
                                 .addComponent(jLabel24)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(jLabel25)
