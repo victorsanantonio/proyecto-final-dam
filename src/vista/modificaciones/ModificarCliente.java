@@ -10,17 +10,20 @@ import vista.consultas.*;
 import controlador.crud.Modificar;
 import java.awt.Desktop;
 import java.awt.Dimension;
+import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.imageio.ImageIO;
 import javax.swing.ButtonGroup;
 import javax.swing.DefaultListModel;
 import javax.swing.Icon;
+import javax.swing.ImageIcon;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import static javax.swing.JOptionPane.ERROR_MESSAGE;
@@ -334,17 +337,19 @@ public class ModificarCliente extends javax.swing.JFrame {
                         .addComponent(jLabel2)
                         .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addComponent(jLabel1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 155, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel12))
-                .addGap(314, 314, 314))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButtonAceptar, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(91, 91, 91)
-                .addComponent(jButtonCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(37, 37, 37))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 155, Short.MAX_VALUE)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel12))
+                        .addGap(314, 314, 314))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(241, 241, 241)
+                        .addComponent(jButtonAceptar, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(91, 91, 91)
+                        .addComponent(jButtonCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -356,7 +361,7 @@ public class ModificarCliente extends javax.swing.JFrame {
                         .addComponent(jLabel12)
                         .addGap(18, 18, 18)
                         .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jButtonAceptar)
                             .addComponent(jButtonCancelar))
@@ -523,14 +528,25 @@ public class ModificarCliente extends javax.swing.JFrame {
      */
     private byte[] convertirImagen() {
         try {
-            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-            Icon icon = jLabelImagen.getIcon();
-            BufferedImage bi = new BufferedImage(icon.getIconWidth(), icon.getIconHeight(), BufferedImage.TYPE_INT_RGB);
-            ImageIO.write(bi, "jpg", baos);
-            byte[] imagenEnBytes = baos.toByteArray();
+            //Obtener imagen del JLabel
+            ImageIcon icon = (ImageIcon) jLabelImagen.getIcon();
+            BufferedImage image = new BufferedImage(icon.getIconWidth(),
+                    icon.getIconHeight(), BufferedImage.TYPE_INT_RGB);
+
+            //Creación de la representación gráfica de la imagen
+            Graphics2D g2 = image.createGraphics();
+            g2.drawImage(icon.getImage(), 0, 0, icon.getImageObserver());
+            g2.dispose();
+
+            //Archivo para su guardado de modo auxiliar
+            File f = new File("image.png");
+            ImageIO.write(image, "png", f);
+
+            //A partir de la imagen guardada localmente, se convierte a un array de bytes
+            byte[] imagenEnBytes = Files.readAllBytes(f.toPath());
             return imagenEnBytes;
-        } catch (IOException ex) {
-            Logger.getLogger(ModificarCliente.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ioe) {
+            System.err.println(ioe.getMessage());
         }
         return null;
     }
