@@ -57,10 +57,10 @@ public class VerClientes extends javax.swing.JFrame {
         llenarLista();
         ajustarDimensionesVentana();
         deshabilitarBotones();
-        
+
         visibilizarSegunRol();
     }
-    
+
     private void visibilizarSegunRol() {
         jButtonClientes.setVisible(false);
         jButtonProductos.setVisible(false);
@@ -70,16 +70,25 @@ public class VerClientes extends javax.swing.JFrame {
         jButtonEmpleados.setVisible(false);
         jLabel3.setVisible(false);
         jLabel4.setVisible(false);
+        jLabel5.setVisible(false);
         jLabel11.setVisible(false);
         jLabel12.setVisible(false);
         jLabel13.setVisible(false);
         jLabel14.setVisible(false);
+        jMenuItemVentas.setVisible(false);
+        jMenuItemCompras.setVisible(false);
+        jMenuItemProductos.setVisible(false);
+        jMenuItemClientes.setVisible(false);
+        jMenuItemProveedores.setVisible(false);
+        jMenuItemEmpleados.setVisible(false);
 
         if (rol.equals("Empleado")) {
             jButtonCompras.setVisible(true);
             jButtonVentas.setVisible(true);
             jLabel12.setVisible(true);
             jLabel13.setVisible(true);
+            jMenuItemVentas.setVisible(true);
+            jMenuItemCompras.setVisible(true);
         }
         if (rol.equals("Encargado")) {
             jButtonCompras.setVisible(true);
@@ -88,6 +97,9 @@ public class VerClientes extends javax.swing.JFrame {
             jLabel12.setVisible(true);
             jLabel13.setVisible(true);
             jLabel14.setVisible(true);
+            jMenuItemVentas.setVisible(true);
+            jMenuItemCompras.setVisible(true);
+            jMenuItemProductos.setVisible(true);
         }
         if (rol.equals("Directivo")) {
             jButtonClientes.setVisible(true);
@@ -102,6 +114,13 @@ public class VerClientes extends javax.swing.JFrame {
             jLabel12.setVisible(true);
             jLabel13.setVisible(true);
             jLabel14.setVisible(true);
+            jLabel5.setVisible(true);
+            jMenuItemVentas.setVisible(true);
+            jMenuItemCompras.setVisible(true);
+            jMenuItemProductos.setVisible(true);
+            jMenuItemClientes.setVisible(true);
+            jMenuItemProveedores.setVisible(true);
+            jMenuItemEmpleados.setVisible(true);
         }
     }
 
@@ -775,48 +794,48 @@ public class VerClientes extends javax.swing.JFrame {
         jMenuItemModificar.setEnabled(false);
     }
 
-    private void verMenu(){
+    private void verMenu() {
         Menu menu = new Menu(nombreUsuario, rol);
         menu.setVisible(true);
         this.setVisible(false);
     }
-    
-    private void verEmpleados(){
+
+    private void verEmpleados() {
         VerEmpleados verEmpleados = new VerEmpleados(nombreUsuario, rol);
         verEmpleados.setVisible(true);
         this.setVisible(false);
     }
-    
-    private void verCompras(){
+
+    private void verCompras() {
         VerCompras verCompras = new VerCompras(nombreUsuario, rol);
         verCompras.setVisible(true);
         this.setVisible(false);
     }
-    
-    private void verVentas(){
+
+    private void verVentas() {
         VerVentas verVentas = new VerVentas(nombreUsuario, rol);
         verVentas.setVisible(true);
         this.setVisible(false);
     }
-    
-    private void verProveedores(){
+
+    private void verProveedores() {
         VerProveedores verProveedores = new VerProveedores(nombreUsuario, rol);
         verProveedores.setVisible(true);
         this.setVisible(false);
     }
-    
-    private void verClientes(){
+
+    private void verClientes() {
         VerClientes verClientes = new VerClientes(nombreUsuario, rol);
         verClientes.setVisible(true);
         this.setVisible(false);
     }
-    
-    private void verProductos(){
+
+    private void verProductos() {
         VerProductos verProductos = new VerProductos(nombreUsuario, rol);
         verProductos.setVisible(true);
         this.setVisible(false);
     }
-    
+
     /**
      * Acción del botón de "Menú principal"
      *
@@ -853,7 +872,7 @@ public class VerClientes extends javax.swing.JFrame {
     private void jButtonClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonClientesActionPerformed
         verClientes();
     }//GEN-LAST:event_jButtonClientesActionPerformed
-    
+
     /**
      * Acción del botón de "Compras"
      *
@@ -862,7 +881,7 @@ public class VerClientes extends javax.swing.JFrame {
     private void jButtonComprasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonComprasActionPerformed
         verCompras();
     }//GEN-LAST:event_jButtonComprasActionPerformed
-    
+
     /**
      * Acción del botón de "Ventas"
      *
@@ -893,11 +912,12 @@ public class VerClientes extends javax.swing.JFrame {
         this.setVisible(false);
     }//GEN-LAST:event_jButtonLogoutActionPerformed
 
-    private void anhadir(){
+    private void anhadir() {
         InsertarCliente insertarCliente = new InsertarCliente(nombreUsuario, rol);
         insertarCliente.setVisible(true);
         this.setVisible(false);
     }
+
     /**
      * Acción del botón "Añadir"
      *
@@ -908,7 +928,7 @@ public class VerClientes extends javax.swing.JFrame {
         anhadir();
     }//GEN-LAST:event_jButtonAnhadirActionPerformed
 
-    private void eliminar(){
+    private void eliminar() {
         //Si se ha seleccionado un elemento de la lista
         int opcion = JOptionPane.showConfirmDialog(null,
                 "¿Estás seguro de que deseas borrar el registro? Los cambios serán irreversibles", "Confirmación de borrado", JOptionPane.YES_NO_OPTION);
@@ -924,6 +944,7 @@ public class VerClientes extends javax.swing.JFrame {
             deshabilitarBotones();
         }
     }
+
     /**
      * Acción del botón "Eliminar"
      *
@@ -953,7 +974,7 @@ public class VerClientes extends javax.swing.JFrame {
         return id;
     }
 
-    private void modificar(){
+    private void modificar() {
         //Si se ha seleccionado un elemento de la lista
         if (jListClientes.getSelectedIndex() > -1) {
             ModificarCliente modificarCliente = new ModificarCliente(nombreUsuario, rol, extraerId());
@@ -961,6 +982,7 @@ public class VerClientes extends javax.swing.JFrame {
             this.setVisible(false);
         }
     }
+
     /**
      * Acción del botón "Modificar"
      *
@@ -986,7 +1008,7 @@ public class VerClientes extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jListClientesMouseClicked
 
-    private void imprimirInforme(){
+    private void imprimirInforme() {
         String reportSource = "./src/informes/clientes.jrxml";
         String reportHTML = "./informes/Informe.html";
         String reportPDF = "./informes/Informe.pdf";
@@ -1019,9 +1041,10 @@ public class VerClientes extends javax.swing.JFrame {
             ex.printStackTrace();
         }
     }
-    
+
     /**
      * Imprimir informe
+     *
      * @param evt Pulsar botón de imprimir
      */
     private void jButtonGenerarInformeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGenerarInformeActionPerformed
@@ -1030,6 +1053,7 @@ public class VerClientes extends javax.swing.JFrame {
 
     /**
      * Imprimir informe desde menú
+     *
      * @param evt Pulsar botón de imprimir desde el menú
      */
     private void jMenuItemGuardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemGuardarActionPerformed
@@ -1038,6 +1062,7 @@ public class VerClientes extends javax.swing.JFrame {
 
     /**
      * Añadir
+     *
      * @param evt Pulsar botón de añadir desde el menú
      */
     private void jMenuItemAnhadirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemAnhadirActionPerformed
@@ -1046,6 +1071,7 @@ public class VerClientes extends javax.swing.JFrame {
 
     /**
      * Modificar
+     *
      * @param evt Pulsar botón de modificar desde el menú
      */
     private void jMenuItemModificarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemModificarActionPerformed
@@ -1054,6 +1080,7 @@ public class VerClientes extends javax.swing.JFrame {
 
     /**
      * Eliminar
+     *
      * @param evt Pulsar botón de eliminar desde el menú
      */
     private void jMenuItemEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemEliminarActionPerformed
@@ -1062,6 +1089,7 @@ public class VerClientes extends javax.swing.JFrame {
 
     /**
      * Ver Compras
+     *
      * @param evt Pulsar botón de ver compras desde el menú
      */
     private void jMenuItemComprasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemComprasActionPerformed
@@ -1070,6 +1098,7 @@ public class VerClientes extends javax.swing.JFrame {
 
     /**
      * Ver Menú principal
+     *
      * @param evt Pulsar botón de ver menú principal desde el menú
      */
     private void jMenuItemMenuPrincipalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemMenuPrincipalActionPerformed
@@ -1078,6 +1107,7 @@ public class VerClientes extends javax.swing.JFrame {
 
     /**
      * Ver empleados desde menú
+     *
      * @param evt Pulsar botón de ver empleados desde el menú
      */
     private void jMenuItemEmpleadosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemEmpleadosActionPerformed
@@ -1086,6 +1116,7 @@ public class VerClientes extends javax.swing.JFrame {
 
     /**
      * Ver proveedores desde menú
+     *
      * @param evt Pulsar botón de ver proveedores desde el menú
      */
     private void jMenuItemProveedoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemProveedoresActionPerformed
@@ -1094,6 +1125,7 @@ public class VerClientes extends javax.swing.JFrame {
 
     /**
      * Ver clientes desde menú
+     *
      * @param evt Pulsar botón de ver clientes desde el menú
      */
     private void jMenuItemClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemClientesActionPerformed
@@ -1102,6 +1134,7 @@ public class VerClientes extends javax.swing.JFrame {
 
     /**
      * Ver ventas desde menú
+     *
      * @param evt Pulsar botón de ver ventas desde el menú
      */
     private void jMenuItemVentasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemVentasActionPerformed
@@ -1110,6 +1143,7 @@ public class VerClientes extends javax.swing.JFrame {
 
     /**
      * Ver productos desde menú
+     *
      * @param evt Pulsar botón de ver productos desde el menú
      */
     private void jMenuItemProductosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemProductosActionPerformed
@@ -1118,20 +1152,19 @@ public class VerClientes extends javax.swing.JFrame {
 
     /**
      * Ver ayudas desde menú
+     *
      * @param evt Pulsar botón de ver ayudas desde el menú
      */
     private void jMenuItemAyudaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemAyudaActionPerformed
         try {
             File f = new File("./ayudas/ayuda.pdf");
-            if(f.exists()){
-                if(Desktop.isDesktopSupported()){
+            if (f.exists()) {
+                if (Desktop.isDesktopSupported()) {
                     Desktop.getDesktop().open(f);
-                }
-                else{
+                } else {
                     System.err.println("No soportado");
                 }
-            }
-            else{
+            } else {
                 JOptionPane.showMessageDialog(this, "Error al abrir la ayuda");
             }
         } catch (Exception ex) {

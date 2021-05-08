@@ -69,16 +69,25 @@ public class VerEmpleados extends javax.swing.JFrame {
         jButtonEmpleados.setVisible(false);
         jLabel3.setVisible(false);
         jLabel4.setVisible(false);
+        jLabel5.setVisible(false);
         jLabel11.setVisible(false);
         jLabel12.setVisible(false);
         jLabel13.setVisible(false);
         jLabel14.setVisible(false);
+        jMenuItemVentas.setVisible(false);
+        jMenuItemCompras.setVisible(false);
+        jMenuItemProductos.setVisible(false);
+        jMenuItemClientes.setVisible(false);
+        jMenuItemProveedores.setVisible(false);
+        jMenuItemEmpleados.setVisible(false);
 
         if (rol.equals("Empleado")) {
             jButtonCompras.setVisible(true);
             jButtonVentas.setVisible(true);
             jLabel12.setVisible(true);
             jLabel13.setVisible(true);
+            jMenuItemVentas.setVisible(true);
+            jMenuItemCompras.setVisible(true);
         }
         if (rol.equals("Encargado")) {
             jButtonCompras.setVisible(true);
@@ -87,6 +96,9 @@ public class VerEmpleados extends javax.swing.JFrame {
             jLabel12.setVisible(true);
             jLabel13.setVisible(true);
             jLabel14.setVisible(true);
+            jMenuItemVentas.setVisible(true);
+            jMenuItemCompras.setVisible(true);
+            jMenuItemProductos.setVisible(true);
         }
         if (rol.equals("Directivo")) {
             jButtonClientes.setVisible(true);
@@ -101,6 +113,13 @@ public class VerEmpleados extends javax.swing.JFrame {
             jLabel12.setVisible(true);
             jLabel13.setVisible(true);
             jLabel14.setVisible(true);
+            jLabel5.setVisible(true);
+            jMenuItemVentas.setVisible(true);
+            jMenuItemCompras.setVisible(true);
+            jMenuItemProductos.setVisible(true);
+            jMenuItemClientes.setVisible(true);
+            jMenuItemProveedores.setVisible(true);
+            jMenuItemEmpleados.setVisible(true);
         }
     }
 
