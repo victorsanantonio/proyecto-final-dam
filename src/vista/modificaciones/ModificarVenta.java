@@ -8,7 +8,6 @@ package vista.modificaciones;
 import vista.inserciones.*;
 import controlador.crud.Consultar;
 import vista.consultas.*;
-import controlador.crud.Insertar;
 import controlador.crud.Modificar;
 import java.awt.Desktop;
 import java.awt.Dimension;
@@ -31,7 +30,6 @@ import modelo.Clientes;
 import modelo.Empleados;
 import modelo.Productos;
 import modelo.Ventas;
-import vista.modificaciones.ModificarCliente;
 
 /**
  * Vista de inserción de clientes
