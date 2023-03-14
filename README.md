@@ -1,4 +1,5 @@
 # Proyecto final (Nota: 9)
+##### Finalizado en mayo de 2021
 ## 📒 Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Multiplataforma
 Código fuente de la aplicación escrita en Java para el proyecto final del último año de ciclo.
 Se trata de crear una recopilación de gran parte de los conocimientos adquiridos durante el ciclo en un único módulo profesional.
