@@ -1,4 +1,4 @@
-# Proyecto final (Nota final: 9)
+# Proyecto final (Nota: 9)
 ## 📒 Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Multiplataforma
 Código fuente de la aplicación de mi proyecto final del último año de ciclo.
 <details><summary>Resumen</summary>
