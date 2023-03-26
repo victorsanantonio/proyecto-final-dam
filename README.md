@@ -11,7 +11,7 @@ Se trata de crear una recopilación de gran parte de los conocimientos adquirido
 
 ### 📝 Resumen
 Aplicación de gestión capaz de realizar operaciones CRUD empleando el ORM de Hibernate contra una base de datos MySQL.
-- A pesar de ser una aplicación de escritorio, se pretende realizar una representación del modelo MVC.
+- Se pretende realizar una representación del conocido esquema de proyecto MVC.
   - **Modelo**: Mapeado de la base de datos realizado mediante notaciones de ***Hibernate*** en las clases modelo.
   - **Vista**: Uso de las bibliotecas de ***Java Swing***. Se emplean para la interacción con botones y formularios y representación de la información.
   - **Controlador**: Lógica escrita en ***Java*** haciendo uso estricto de los métodos de ***Hibernate*** para operar con los objetos de una forma clara y sencilla.
